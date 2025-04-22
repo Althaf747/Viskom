@@ -1,6 +1,6 @@
 let currentQuestionIndex = 0;
 let questions = [];
-let userAnswers = [];
+let userAnswers = []; // This will store selected answers for each question
 let correctAnswers = 0;
 let quizStarted = false;
 
