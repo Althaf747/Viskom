@@ -3,12 +3,12 @@ import csv
 import os
 
 # Load quiz data from external JSON file
-json_path = "quiz2.json"  # Ensure this path is correct
+json_path = "./data/quiz2.json"  # Ensure this path is correct
 with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Define the path where you want to save the CSV
-local_path = r"C:\Users\altha\Downloads\quiz-app\quiz2_questions.csv"
+local_path = r"C:\Users"
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(local_path), exist_ok=True)
