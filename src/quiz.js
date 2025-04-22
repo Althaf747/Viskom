@@ -9,8 +9,8 @@ function loadCSVFromSelection(event) {
     if (!selectedFile) return;
 
     const fileMap = {
-        "file1.csv": "data/quiz1_questions.csv",  
-        "file2.csv": "data/quiz2_questions.csv", 
+        "file1.csv": "data/quiz1.json",  
+        "file2.csv": "data/quiz2.json", 
     };
 
     // Fetch the selected CSV
@@ -22,20 +22,16 @@ function loadCSVFromSelection(event) {
         });
 }
 
-function parseQuestions(rows) {
-    rows.forEach((row, index) => {
-        if (index === 0) return; // Skip header row
-
-        const questionText = row[0];
-        const options = row.slice(1, -1); // All options except the answer
-
-        // Parse the correct answers and trim any quotes or spaces
-        const correctAnswers = row.slice(-1).map(item => item.trim().replace(/"/g, '').trim()); // Remove extra quotes and spaces
+function parseQuestions(data) {
+    data.forEach((questionData) => {
+        const questionText = questionData.question;
+        const options = questionData.options;
+        const correctAnswers = questionData.answer.split(';'); // Split multiple correct answers by semicolon
 
         questions.push({
             questionText,
             options,
-            correctAnswers: correctAnswers[0].split(';') // Split answers by semicolon
+            correctAnswers
         });
     });
 
