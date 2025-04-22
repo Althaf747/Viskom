@@ -65,6 +65,14 @@ function displayQuestion(index) {
         optionsContainer.appendChild(label);
     });
 
+    // Preselect answers if the user has already selected them
+    if (userAnswers[index]) {
+        userAnswers[index].selectedOptions.forEach(selectedOption => {
+            const checkbox = document.querySelector(`#options input[value="${selectedOption}"]`);
+            if (checkbox) checkbox.checked = true;
+        });
+    }
+
     document.getElementById('next-button').disabled = false;
     document.getElementById('previous-button').disabled = index === 0; // Disable "Previous" on the first question
     document.getElementById('reset-button').disabled = false;
@@ -128,7 +136,8 @@ function checkAnswers(selectedOptions) {
         correctAnswers++;  // Increment score if the selected answers are correct
     }
 
-    userAnswers.push({ question: questions[currentQuestionIndex], selectedOptions, correct: isCorrect });
+    // Store user answers for later when navigating back
+    userAnswers[currentQuestionIndex] = { selectedOptions, correct: isCorrect };
 }
 
 function displayResults() {
