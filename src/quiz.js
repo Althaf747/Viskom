@@ -174,7 +174,18 @@ function resetQuiz() {
     document.getElementById('question').innerText = '';
     document.getElementById('options').innerHTML = '';
 
+    // Reset all checkboxes
+    const checkboxes = document.querySelectorAll('#options input[type="checkbox"]');
+    checkboxes.forEach(checkbox => {
+        checkbox.checked = false;  // Uncheck all checkboxes
+        checkbox.disabled = false;  // Enable all checkboxes
+    });
+
     // Show file input again and reset its value
     document.getElementById('json-file-selector').style.display = 'block';
     document.getElementById('json-file-selector').value = '';  // Clear the previous file selection
+
+    // Re-enable and show the Check Answer button when the quiz starts again
+    document.getElementById('check-answer-button').style.display = 'inline-block';
+    document.getElementById('check-answer-button').disabled = false;
 }
