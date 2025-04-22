@@ -185,7 +185,7 @@ function resetQuiz() {
     document.getElementById('json-file-selector').style.display = 'block';
     document.getElementById('json-file-selector').value = '';  // Clear the previous file selection
 
-    // Re-enable and show the Check Answer button when the quiz starts again
-    document.getElementById('check-answer-button').style.display = 'inline-block';
-    document.getElementById('check-answer-button').disabled = false;
+    // Re-enable the Check Answer button
+    document.getElementById('check-answer-button').style.display = 'inline-block';  // Ensure it's visible
+    document.getElementById('check-answer-button').disabled = false;  // Ensure it's enabled and clickable
 }
