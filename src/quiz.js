@@ -4,23 +4,23 @@ let userAnswers = [];
 let correctAnswers = 0;
 let quizStarted = false;
 
-function loadCSVFromSelection(event) {
+function loadJSONFromSelection(event) {
     const selectedFile = event.target.value;
     if (!selectedFile) return;
 
     const fileMap = {
-        "file1.csv": "data/quiz1.json",  
-        "file2.csv": "data/quiz2.json", 
+        "quiz1.json": "data/quiz1.json",
+        "quiz2.json": "data/quiz2.json",   // Update with correct path to your JSON file
     };
 
-    // Fetch the selected CSV
+    // Fetch the selected JSON file
     fetch(fileMap[selectedFile])
-        .then(response => response.text())
+        .then(response => response.json())
         .then(data => {
-            const rows = data.split("\n").map(row => row.split(","));
-            parseQuestions(rows);
+            parseQuestions(data);  // Ensure this function exists as well
         });
 }
+
 
 function parseQuestions(data) {
     data.forEach((questionData) => {
@@ -39,10 +39,9 @@ function parseQuestions(data) {
     startQuiz();
 }
 
-
 function startQuiz() {
     quizStarted = true;
-    document.getElementById('csv-file-selector').style.display = 'none';  // Hide file dropdown after starting
+    document.getElementById('json-file-selector').style.display = 'none';  // Hide file dropdown after starting
     document.getElementById('next-button').innerText = "Next";   // Change button text to Next after quiz starts
     document.getElementById('check-answer-button').style.display = 'inline-block'; // Show Check Answer button
     displayQuestion(currentQuestionIndex);  // Display the first question
@@ -52,7 +51,7 @@ function displayQuestion(index) {
     const question = questions[index];
     
     // Display the question number in the format "Question i of j"
-    document.getElementById('question-number').innerText = `Question ${index + 1} of ${questions.length-1}`;
+    document.getElementById('question-number').innerText = `Question ${index + 1} of ${questions.length}`;
 
     document.getElementById('question').innerText = question.questionText;
 
@@ -84,7 +83,6 @@ function nextQuestion() {
     }
 }
 
-
 function getSelectedOptions() {
     const selected = [];
     const checkboxes = document.querySelectorAll('#options input[type="checkbox"]');
@@ -109,7 +107,6 @@ function checkAnswer() {
 
 function checkAnswers(selectedOptions) {
     const correctAnswersForQuestion = questions[currentQuestionIndex].correctAnswers;
-   
 
     // Sort the selected answers and the correct answers for proper comparison
     selectedOptions.sort();
@@ -128,7 +125,6 @@ function checkAnswers(selectedOptions) {
     userAnswers.push({ question: questions[currentQuestionIndex], selectedOptions, correct: isCorrect });
 }
 
-
 function displayResults() {
     // Display the result score
     document.getElementById('score').innerText = `You answered ${correctAnswers} out of ${questions.length-1} questions correctly.`;
@@ -137,7 +133,6 @@ function displayResults() {
     document.getElementById('next-button').disabled = true;
     document.getElementById('check-answer-button').disabled = true;
 }
-
 
 function resetQuiz() {
     // Reset quiz state
@@ -161,6 +156,6 @@ function resetQuiz() {
     document.getElementById('options').innerHTML = '';
 
     // Show file input again and reset its value
-    document.getElementById('csv-file-selector').style.display = 'block';
-    document.getElementById('csv-file-selector').value = '';  // Clear the previous file selection
+    document.getElementById('json-file-selector').style.display = 'block';
+    document.getElementById('json-file-selector').value = '';  // Clear the previous file selection
 }
