@@ -18,7 +18,15 @@ function loadJSONFromSelection(event) {
         .then(response => response.json())
         .then(data => {
             parseQuestions(data);  // Ensure this function exists as well
+            resetButtonState();     // Re-enable the Check Answer button when a new quiz is loaded
         });
+}
+
+
+function resetButtonState() {
+    // Ensure Check Answer button is enabled and visible again
+    document.getElementById('check-answer-button').style.display = 'inline-block';  // Make visible
+    document.getElementById('check-answer-button').disabled = false;  // Ensure clickable
 }
 
 function parseQuestions(data) {
@@ -186,6 +194,5 @@ function resetQuiz() {
     document.getElementById('json-file-selector').value = '';  // Clear the previous file selection
 
     // Re-enable the Check Answer button
-    document.getElementById('check-answer-button').style.display = 'inline-block';  // Ensure it's visible
-    document.getElementById('check-answer-button').disabled = false;  // Ensure it's enabled and clickable
+    resetButtonState(); // Ensures the button is enabled when starting a new quiz
 }
