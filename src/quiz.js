@@ -9,8 +9,8 @@ function loadCSVFromSelection(event) {
     if (!selectedFile) return;
 
     const fileMap = {
-        "file1.csv": "/data/quiz1_questions.csv",  
-        "file2.csv": "/data/quiz2_questions.csv", 
+        "file1.csv": "data/quiz1_questions.csv",  
+        "file2.csv": "data/quiz2_questions.csv", 
     };
 
     // Fetch the selected CSV
