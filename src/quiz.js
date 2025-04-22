@@ -132,12 +132,15 @@ function checkAnswers(selectedOptions) {
     const isCorrect = selectedOptions.length === correctAnswersForQuestion.length && 
                       selectedOptions.every((option, index) => option === correctAnswersForQuestion[index]);
 
-    if (isCorrect) {
-        correctAnswers++;  // Increment score if the selected answers are correct
+    // Ensure the score is only updated if the answer is correct and has not been checked before
+    if (userAnswers[currentQuestionIndex] === undefined || userAnswers[currentQuestionIndex].isCorrect !== isCorrect) {
+        if (isCorrect) {
+            correctAnswers++;  // Increment score if the selected answers are correct
+        }
     }
 
     // Store user answers for later when navigating back
-    userAnswers[currentQuestionIndex] = { selectedOptions, correct: isCorrect };
+    userAnswers[currentQuestionIndex] = { selectedOptions, isCorrect };
 }
 
 function displayResults() {
