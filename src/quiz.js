@@ -9,8 +9,8 @@ function loadCSVFromSelection(event) {
     if (!selectedFile) return;
 
     const fileMap = {
-        "file1.csv": "data/quiz1_questions.csv",  // Update to match your file
-        "file2.csv": "data/quiz2_questions.csv", // Update with actual file paths
+        "file1.csv": "../data/quiz1_questions.csv",  // Update to match your file
+        "file2.csv": "../data/quiz2_questions.csv", // Update with actual file paths
     };
 
     // Fetch the selected CSV
