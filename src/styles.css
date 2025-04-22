@@ -116,6 +116,23 @@ button:disabled {
     cursor: not-allowed;
 }
 
+/* Styling for the Previous button */
+#previous-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%; /* Make sure it fits beside Next button */
+}
+
+#previous-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Go to quiz review button */
 #go-to-quiz-review {
     position: absolute;
     top: 100px;
@@ -150,7 +167,7 @@ button:disabled {
         flex-direction: column; /* Stack buttons vertically */
     }
 
-    #check-answer-button, #next-button {
+    #check-answer-button, #next-button, #previous-button {
         width: 100%; /* Full width for buttons on smaller screens */
         margin-bottom: 10px; /* Add space between buttons */
     }
@@ -180,7 +197,7 @@ button:disabled {
         flex-direction: column;
     }
 
-    #check-answer-button, #next-button {
+    #check-answer-button, #next-button, #previous-button {
         width: 100%;
     }
 

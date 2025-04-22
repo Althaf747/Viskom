@@ -21,7 +21,6 @@ function loadJSONFromSelection(event) {
         });
 }
 
-
 function parseQuestions(data) {
     data.forEach((questionData) => {
         const questionText = questionData.question;
@@ -44,6 +43,7 @@ function startQuiz() {
     document.getElementById('json-file-selector').style.display = 'none';  // Hide file dropdown after starting
     document.getElementById('next-button').innerText = "Next";   // Change button text to Next after quiz starts
     document.getElementById('check-answer-button').style.display = 'inline-block'; // Show Check Answer button
+    document.getElementById('previous-button').style.display = 'inline-block'; // Show Previous button
     displayQuestion(currentQuestionIndex);  // Display the first question
 }
 
@@ -59,13 +59,14 @@ function displayQuestion(index) {
     optionsContainer.innerHTML = ''; // Clear previous options
     question.options.forEach((option, i) => {
         const label = document.createElement('label');
-        label.innerHTML = `
+        label.innerHTML = `    
             <input type="checkbox" id="option${i}" value="${option}" /> ${String.fromCharCode(97 + i)}. ${option}
         `;
         optionsContainer.appendChild(label);
     });
 
     document.getElementById('next-button').disabled = false;
+    document.getElementById('previous-button').disabled = index === 0; // Disable "Previous" on the first question
     document.getElementById('reset-button').disabled = false;
 }
 
@@ -76,10 +77,18 @@ function nextQuestion() {
     currentQuestionIndex++;
 
     // If the current question is the last one, show results
-    if (currentQuestionIndex < questions.length-1) {
+    if (currentQuestionIndex < questions.length) {
         displayQuestion(currentQuestionIndex);
     } else {
         displayResults(); // Show the results if it's the last question
+    }
+}
+
+function previousQuestion() {
+    currentQuestionIndex--;
+
+    if (currentQuestionIndex >= 0) {
+        displayQuestion(currentQuestionIndex);
     }
 }
 
@@ -111,10 +120,7 @@ function checkAnswers(selectedOptions) {
     // Sort the selected answers and the correct answers for proper comparison
     selectedOptions.sort();
     correctAnswersForQuestion.sort();
-    console.log("selected : " + selectedOptions);
-    console.log("answer : " +correctAnswersForQuestion);
 
-    // Check if the selected answers match the correct answers
     const isCorrect = selectedOptions.length === correctAnswersForQuestion.length && 
                       selectedOptions.every((option, index) => option === correctAnswersForQuestion[index]);
 
@@ -127,7 +133,7 @@ function checkAnswers(selectedOptions) {
 
 function displayResults() {
     // Display the result score
-    document.getElementById('score').innerText = `You answered ${correctAnswers} out of ${questions.length-1} questions correctly.`;
+    document.getElementById('score').innerText = `You answered ${correctAnswers} out of ${questions.length} questions correctly.`;
     
     // Disable Next and Check Answer buttons once the quiz is finished
     document.getElementById('next-button').disabled = true;
@@ -150,6 +156,7 @@ function resetQuiz() {
 
     // Hide Check Answer button
     document.getElementById('check-answer-button').style.display = 'none';
+    document.getElementById('previous-button').style.display = 'none'; // Hide the Previous button
 
     // Reset question and options display
     document.getElementById('question').innerText = '';
