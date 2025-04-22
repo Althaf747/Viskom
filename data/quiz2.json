@@ -1,0 +1,1003 @@
+[
+    {
+        "question": "Which of the following pooling techniques is most commonly used in CNNs?",
+        "options": [
+            "Random pooling",
+            "Global pooling",
+            "Max pooling",
+            "Min pooling",
+            "Mean pooling"
+        ],
+        "answer": "Max pooling"
+    },
+    {
+        "question": "What is a common use case for the Selective Search algorithm?",
+        "options": [
+            "Depth map generation",
+            "Region proposal for object detection",
+            "Pixel-level segmentation",
+            "Real-time object recognition",
+            "Image compression"
+        ],
+        "answer": "Region proposal for object detection"
+    },
+    {
+        "question": "How many direction bins are typically used in HOG for gradient orientation?",
+        "options": [
+            "16",
+            "8",
+            "6",
+            "12",
+            "9"
+        ],
+        "answer": "9"
+    },
+    {
+        "question": "Which of the following are steps in HOG feature extraction?",
+        "options": [
+            "Gradient vector computation",
+            "Normalization",
+            "Region proposal generation",
+            "Image preprocessing",
+            "Magnitude binning"
+        ],
+        "answer": "Image preprocessing;Gradient vector computation;Magnitude binning;Normalization"
+    },
+    {
+        "question": "What are common pooling techniques used in CNNs?",
+        "options": [
+            "Random pooling",
+            "Strided pooling",
+            "Max pooling",
+            "Average pooling",
+            "Overlapping pooling"
+        ],
+        "answer": "Max pooling;Average pooling;Overlapping pooling"
+    },
+    {
+        "question": "Which components of feature extraction contribute to the robustness of SIFT and SURF?",
+        "options": [
+            "Keypoint localization",
+            "Scale-space representation",
+            "Descriptor matching",
+            "Gradient computation",
+            "Color histograms"
+        ],
+        "answer": "Keypoint localization;Descriptor matching;Scale-space representation;Gradient computation"
+    },
+    {
+        "question": "Which layers typically contain learnable parameters in a CNN?",
+        "options": [
+            "Convolutional layers",
+            "Pooling layers",
+            "Fully connected layers",
+            "Dropout layers",
+            "Activation layers"
+        ],
+        "answer": "Convolutional layers;Fully connected layers"
+    },
+    {
+        "question": "What is a typical application of HOG features in computer vision?",
+        "options": [
+            "Semantic segmentation",
+            "Video compression",
+            "3D modeling",
+            "Depth estimation",
+            "Object detection"
+        ],
+        "answer": "Object detection"
+    },
+    {
+        "question": "What mathematical operation is performed in the Sobel operator?",
+        "options": [
+            "Calculating the orientation of keypoints",
+            "Matching feature descriptors",
+            "Computing the pixel intensity",
+            "Gradient normalization",
+            "Convolution with a filter to detect edges"
+        ],
+        "answer": "Convolution with a filter to detect edges"
+    },
+    {
+        "question": "Which of the following are goals of image segmentation?",
+        "options": [
+            "Detecting edges",
+            "Identifying image regions",
+            "Applying filters",
+            "Reducing image noise",
+            "Grouping similar pixels"
+        ],
+        "answer": "Identifying image regions;Grouping similar pixels"
+    },
+    {
+        "question": "What is the role of keypoint matching in SIFT-based object recognition?",
+        "options": [
+            "To remove noise from the input image",
+            "To identify corresponding points between two images",
+            "To reduce image resolution",
+            "To improve the image contrast",
+            "To adjust the image orientation"
+        ],
+        "answer": "To identify corresponding points between two images"
+    },
+    {
+        "question": "What does the term 'internal difference' refer to in Felzenszwalb’s segmentation algorithm?",
+        "options": [
+            "The average pixel intensity in a region",
+            "The Euclidean distance between two regions",
+            "The number of pixels in a region",
+            "The dissimilarity between two regions",
+            "The maximum weight of edges within a region"
+        ],
+        "answer": "The dissimilarity between two regions"
+    },
+    {
+        "question": "Which is the primary feature extraction method used in HOG?",
+        "options": [
+            "Region segmentation",
+            "Pixel intensity histograms",
+            "Fourier transforms",
+            "Edge orientation histograms",
+            "Color histograms"
+        ],
+        "answer": "Edge orientation histograms"
+    },
+    {
+        "question": "In which layer are filters applied to detect local patterns in a CNN?",
+        "options": [
+            "Pooling layer",
+            "Softmax layer",
+            "Batch normalization layer",
+            "Convolutional layer",
+            "Fully connected layer"
+        ],
+        "answer": "Convolutional layer"
+    },
+    {
+        "question": "Which property of SIFT features makes them robust to changes in scale and rotation?",
+        "options": [
+            "Keypoint descriptor",
+            "Gradient orientation",
+            "Scale-space extrema detection",
+            "Color invariance",
+            "Histogram normalization"
+        ],
+        "answer": "Scale-space extrema detection"
+    },
+    {
+        "question": "What type of padding ensures that the input size remains the same after convolution?",
+        "options": [
+            "Valid padding",
+            "Full padding",
+            "Stride padding",
+            "Same padding",
+            "Zero padding"
+        ],
+        "answer": "Same padding"
+    },
+    {
+        "question": "What makes SIFT features robust against changes in illumination?",
+        "options": [
+            "Keypoint descriptor normalization",
+            "Filtering noise using convolution",
+            "Use of gradient magnitudes",
+            "Use of Gaussian filters",
+            "Use of color histograms"
+        ],
+        "answer": "Keypoint descriptor normalization"
+    },
+
+
+    {
+        "question": "Which attributes are extracted in the Histogram of Oriented Gradients (HOG) method?",
+        "options": [
+            "Gradient direction",
+            "Gradient magnitude",
+            "Edge orientation",
+            "Pixel intensity",
+            "Color contrast"
+        ],
+        "answer": "Gradient magnitude;Gradient direction;Edge orientation"
+    },
+    {
+        "question": "What is the purpose of using a stride in convolutional layers?",
+        "options": [
+            "To shift the convolution filter across the input",
+            "To reduce the number of neurons in the network",
+            "To increase the depth of the network",
+            "To control the receptive field size",
+            "To normalize the batch size"
+        ],
+        "answer": "To shift the convolution filter across the input"
+    },
+    {
+        "question": "Which of the following are optimizers used in neural networks?",
+        "options": [
+            "RMSprop",
+            "ReLU",
+            "SGD",
+            "Adagrad",
+            "Adam"
+        ],
+        "answer": "Adam;RMSprop;SGD;Adagrad"
+    },
+    {
+        "question": "What method does the Selective Search algorithm use to propose regions?",
+        "options": [
+            "Hierarchical grouping",
+            "Region growing",
+            "Feature pyramids",
+            "Edge detection",
+            "Pixel-based clustering"
+        ],
+        "answer": "Hierarchical grouping"
+    },
+    {
+        "question": "Which are activation functions commonly used in CNNs?",
+        "options": [
+            "Sigmoid",
+            "ReLU",
+            "Dropout",
+            "Softmax",
+            "Tanh"
+        ],
+        "answer": "ReLU;Sigmoid;Tanh;Softmax"
+    },
+    {
+        "question": "What is the function of a softmax layer in CNNs?",
+        "options": [
+            "To calculate the loss",
+            "To perform pooling",
+            "To apply dropout",
+            "To normalize the input data",
+            "To convert activations into probability distributions"
+        ],
+        "answer": "To convert activations into probability distributions"
+    },
+    {
+        "question": "Dari pernyataan berikut, manakah yang merupakan alasan populernya deep learning?",
+        "options": [
+            "meningkatnya akses ke daya komputasi (computational power)",
+            "Neural network merupakan bidang ilmu yang baru",
+            "meningkatnya akses ke banyaknya data (big data)",
+            "Deep learning berhasil meningkatkan kinerja berbagai aplikasi penting, misalnya speech recognition, image recognition"
+        ],
+        "answer": "Deep learning berhasil meningkatkan kinerja berbagai aplikasi penting, misalnya speech recognition, image recognition;meningkatnya akses ke daya komputasi (computational power);meningkatnya akses ke banyaknya data (big data)"
+    },
+    {
+        "question": "Apa yang sebenarnya dihitung oleh suatu neuron?",
+        "options": [
+            "Neuron menghitung rerata dari semua fitur sebelum mengaplikasikan output ke fungsi aktivasi",
+            "Neuron menghitung fungsi linier (z=Wx+b) diikuti fungsi aktivasi",
+            "Neuron menghitung fungsi g yang menskalakan input x secara linier (Wx+b)",
+            "Neuron menghitung fungsi aktivasi diikuti fungsi linier (z = Wx + b)"
+        ],
+        "answer": "Neuron menghitung fungsi linier (z=Wx+b) diikuti fungsi aktivasi"
+    },
+    {
+        "question": "How does a fully connected layer differ from a convolutional layer?",
+        "options": [
+            "It only processes local information",
+            "It applies a kernel filter",
+            "It connects every neuron in one layer to every neuron in the next layer",
+            "It reduces spatial dimensions",
+            "It uses pooling operations"
+        ],
+        "answer": "It connects every neuron in one layer to every neuron in the next layer"
+    },
+    {
+        "question": "Which technique can help speed up the training of a CNN?",
+        "options": [
+            "Stride pooling",
+            "Reducing the number of filters",
+            "Batch normalization",
+            "Increasing the learning rate",
+            "Dropout"
+        ],
+        "answer": "Batch normalization"
+    },
+    {
+        "question": "What are the key stages in the SIFT algorithm?",
+        "options": [
+            "Scale-space extrema detection",
+            "Keypoint descriptor computation",
+            "Keypoint localization",
+            "Orientation assignment",
+            "Non-maximum suppression"
+        ],
+        "answer": "Scale-space extrema detection;Keypoint localization;Keypoint descriptor computation;Orientation assignment"
+    },
+    {
+        "question": "Which types of loss functions are used in CNNs?",
+        "options": [
+            "Mean squared error",
+            "Crossentropy loss",
+            "Hinge loss",
+            "Softmax loss",
+            "Smooth L1 loss"
+        ],
+        "answer": "Crossentropy loss;Mean squared error;Smooth L1 loss"
+    },
+    {
+        "question": "What does stride control in a convolution operation?",
+        "options": [
+            "The amount of overlap between regions",
+            "The number of filters applied",
+            "The size of the pooling window",
+            "The output size",
+            "The step size of the filter"
+        ],
+        "answer": "The step size of the filter"
+    },
+    {
+        "question": "What makes keypoint descriptors in SIFT robust to image transformations?",
+        "options": [
+            "Scale invariance",
+            "Translation invariance",
+            "Rotation invariance",
+            "Texture invariance",
+            "Contrast invariance"
+        ],
+        "answer": "Scale invariance;Rotation invariance;Translation invariance"
+    },
+    {
+        "question": "What happens to the feature maps in max pooling?",
+        "options": [
+            "The input dimensions remain the same",
+            "Only the largest value from each region is kept",
+            "The smallest values are retained",
+            "The average value is computed",
+            "The filter size is increased"
+        ],
+        "answer": "Only the largest value from each region is kept"
+    },
+    {
+        "question": "What is the biological analogy often made for neurons in a neural network?",
+        "options": [
+            "Axon terminals",
+            "Synaptic clefts",
+            "Firing neurons",
+            "Dendritic inputs",
+            "Input nodes"
+        ],
+        "answer": "Firing neurons"
+    },
+    {
+        "question": "Which factors can affect the number of parameters in a convolutional layer?",
+        "options": [
+            "Stride",
+            "Number of filters",
+            "Filter size",
+            "Input volume size",
+            "Pooling type"
+        ],
+        "answer": "Number of filters"
+    },
+    {
+        "question": "Which activation function is most commonly used today due to its simplicity and effectiveness?",
+        "options": [
+            "Softmax",
+            "ReLU",
+            "Sigmoid",
+            "Tanh",
+            "ELU"
+        ],
+        "answer": "ReLU"
+    },
+    {
+        "question": "Bobot w pada Logistic Regression sebaiknya diinisialisasi dengan bilangan acak dibanding diinisialisasi dengan nol. Karena jika Anda menginisiasi dengan nol, maka logistic regression akan gagal mempelajari decision boundary karena akan gagal melakukan break symmetry'.",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Perhatikan kode berikut:\nA = np.random.randn(4, 3)\nB = np.sum(A, axis = 1, keepdims = True)\nBerapakah nilai B.shape?",
+        "options": [
+            "(1, 3)",
+            "(, 3)",
+            "(4,)",
+            "(4, 1)"
+        ],
+        "answer": "(4, 1)"
+    },
+    {
+        "question": "How does dropout help prevent overfitting in CNNs?",
+        "options": [
+            "By applying gradient clipping",
+            "By increasing the depth of the network",
+            "By applying batch normalization",
+            "By randomly dropping neurons during training",
+            "By reducing the input dimensions"
+        ],
+        "answer": "By randomly dropping neurons during training"
+    },
+    {
+        "question": "Which similarity measure in Selective Search helps merge regions with similar colors?",
+        "options": [
+            "Gradient similarity",
+            "Color similarity",
+            "Size similarity",
+            "Texture similarity",
+            "Shape similarity"
+        ],
+        "answer": "Color similarity"
+    },
+    {
+        "question": "What are some key characteristics of VGG architecture?",
+        "options": [
+            "RoI Pooling",
+            "Small filters (3x3)",
+            "Multiple pooling layers",
+            "Anchorbased prediction",
+            "Deep layers (19)"
+        ],
+        "answer": "Deep layers (19);Small filters (3x3);Multiple pooling layers"
+    },
+    {
+        "question": "In the Histogram of Oriented Gradients (HOG), what does a \"bin\" represent?",
+        "options": [
+            "A fixed number of pixels",
+            "A single keypoint",
+            "A region of uniform intensity",
+            "A set of keypoints",
+            "A range of gradient orientations"
+        ],
+        "answer": "A range of gradient orientations"
+    },
+    {
+        "question": "Which technique is primarily used to combat overfitting in CNNs?",
+        "options": [
+            "Stride adjustment",
+            "Zero padding",
+            "Pooling",
+            "Dropout",
+            "Batch normalization"
+        ],
+        "answer": "Dropout"
+    },
+    {
+        "question": "Which technique can be used to address the vanishing gradient problem?",
+        "options": [
+            "Max pooling",
+            "Batch normalization",
+            "ReLU activation",
+            "Gradient clipping",
+            "Dropout"
+        ],
+        "answer": "Batch normalization"
+    },
+    {
+        "question": "What does the term \"universal approximator\" mean in the context of neural networks?",
+        "options": [
+            "Neural networks are always accurate",
+            "Neural networks can classify any type of data",
+            "Neural networks use linear activation functions",
+            "Neural networks can approximate any continuous function",
+            "Neural networks always output probabilities"
+        ],
+        "answer": "Neural networks can approximate any continuous function"
+    },
+    {
+        "question": "What is backpropagation used for in neural networks?",
+        "options": [
+            "To apply nonlinearity",
+            "To compute the final output",
+            "To propagate errors backward and update weights",
+            "To initialize weights",
+            "To reduce overfitting"
+        ],
+        "answer": "To propagate errors backward and update weights"
+    },
+    {
+        "question": "Ketika engineer deep learning yang berpengalaman bekerja pada suatu problem baru, mereka biasanya menggunakan pengetahuan dari problem yang sebelumnya untuk melatih model yang baik, tanpa memerlukan iterasi berkali-kali melalui model yang berbeda. True/False?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "What factors can affect the number of parameters in a convolutional layer?",
+        "options": [
+            "Pooling window size",
+            "Number of filters",
+            "Stride",
+            "Size of filters",
+            "Input feature map dimensions"
+        ],
+        "answer": "Number of filters;Size of filters;Input feature map dimensions"
+    },
+    {
+        "question": "What elements contribute to the total number of parameters in CNNs?",
+        "options": [
+            "Bias terms",
+            "Stride",
+            "Number of filters",
+            "Kernel size",
+            "Pooling layers"
+        ],
+        "answer": "Bias terms;Number of filters;Kernel size"
+    },
+    {
+        "question": "What are common uses for gradient vectors in image processing?",
+        "options": [
+            "Object detection",
+            "Feature extraction",
+            "Image segmentation",
+            "Edge detection",
+            "Smoothing"
+        ],
+        "answer": "Edge detection;Feature extraction;Image segmentation;Object detection"
+    },
+    {
+        "question": "What is the primary purpose of using filters in CNNs?",
+        "options": [
+            "To detect specific patterns like edges",
+            "To reduce feature map size",
+            "To pool over regions",
+            "To increase depth of the model",
+            "To avoid overfitting"
+        ],
+        "answer": "To detect specific patterns like edges"
+    },
+    {
+        "question": "Diketahui suatu citra (img) dalam array (32, 32, 3), yang merepresentasikan citra berukuran 32x32 dengan 3 kanal warna R, G, B. Bagaimana melakukan reshape array ini ke dalam vektor kolom?",
+        "options": [
+            "x = img.reshape((3,32*32))",
+            "x = img.reshape((32*32,3))",
+            "x = img.reshape((1,32*32*3))",
+            "x = img.reshape((32*32*3,1))"
+        ],
+        "answer": "x = img.reshape((32*32*3,1))"
+    },
+    {
+        "question": "Which of the following filters is commonly used in edge detection techniques like the Sobel operator?",
+        "options": [
+            "Gaussian filter",
+            "High-pass filter",
+            "Median filter",
+            "Box filter",
+            "Laplacian filter"
+        ],
+        "answer": "Gaussian filter"
+    },
+    {
+        "question": "What are the components of a CNN architecture?",
+        "options": [
+            "Convolutional layers",
+            "Gradient clipping",
+            "Pooling layers",
+            "ReLU activation",
+            "Fully connected layers"
+        ],
+        "answer": "Convolutional layers;Pooling layers;ReLU activation;Fully connected layers"
+    },
+    {
+        "question": "Which of the following operations are performed during SURF feature extraction?",
+        "options": [
+            "Keypoint detection",
+            "Orientation assignment",
+            "Convolution with Gaussian filters",
+            "Keypoint matching",
+            "Descriptor calculation using Haar wavelets"
+        ],
+        "answer": "Keypoint detection;Orientation assignment;Descriptor calculation using Haar wavelets;Keypoint matching"
+    },
+    {
+        "question": "What are common uses for SIFT and SURF in computer vision?",
+        "options": [
+            "Object detection",
+            "Image matching",
+            "3D reconstruction",
+            "Image stitching",
+            "Depth estimation"
+        ],
+        "answer": "Object detection;Image matching;Image stitching;3D reconstruction"
+    },
+    {
+        "question": "What improvements does ResNet introduce over previous models?",
+        "options": [
+            "Deeper architecture",
+            "Segmentation capabilities",
+            "Faster inference time",
+            "Better handling of vanishing gradients",
+            "Residual blocks"
+        ],
+        "answer": "Residual blocks;Deeper architecture;Better handling of vanishing gradients"
+    },
+    {
+        "question": "What are the key attributes of SIFT features that make them useful in object recognition?",
+        "options": [
+            "Scale invariance",
+            "Rotation invariance",
+            "Robustness to noise",
+            "Real-time processing",
+            "Color invariance"
+        ],
+        "answer": "Scale invariance;Rotation invariance;Robustness to noise"
+    },
+    {
+        "question": "What does SIFT stand for in the context of feature extraction?",
+        "options": [
+            "Spatial Invariant Feature Transformation",
+            "Scale Invariant Feature Tracking",
+            "Scale Invariant Feature Transformation",
+            "Scale Invariant Feature Template",
+            "Scale Independent Feature Template"
+        ],
+        "answer": "Scale Invariant Feature Transformation"
+    },
+    {
+        "question": "Diketahui bahwa np.dot(a,b) melakukan perkalian matriks pada a dan b, sedangkan a*b melakukan perkalian secara element-wise. Perhatikan 2 (dua) array bebas berikut 'a' dan 'b':\na = np.random.randn(12288, 150) # a.shape = (12288, 150)\nb = np.random.randn(150, 45) # b.shape = (150, 45)\nc = np.dot(a, b). Bagaimanakah dimensi (shape) dari 'c'?",
+        "options": [
+            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!",
+            "c.shape = (12288, 150)",
+            "c.shape = (12288, 45)",
+            "c.shape = (150, 150)"
+        ],
+        "answer": "c.shape = (12288, 45)"
+    },
+    {
+        "question": "What makes HOG suitable for object detection?",
+        "options": [
+            "Robustness to changes in lighting",
+            "Ability to represent complex shapes",
+            "Reduction of computational complexity",
+            "Focus on edge direction",
+            "Robustness to rotation"
+        ],
+        "answer": "Robustness to changes in lighting;Focus on edge direction;Ability to represent complex shapes"
+    },
+    {
+        "question": "In the SURF algorithm, which feature makes it faster than SIFT?",
+        "options": [
+            "Use of integral images",
+            "Scale-space representation",
+            "Keypoint detection",
+            "Gradient orientation",
+            "Edge detection"
+        ],
+        "answer": "Use of integral images"
+    },
+    {
+        "question": "In the context of image feature extraction, what is the goal of the 'orientation assignment' step in SIFT?",
+        "options": [
+            "To classify objects in an image",
+            "To determine the color of the object",
+            "To detect edges in the image",
+            "To make the feature descriptor rotation-invariant",
+            "To compute pixel intensity gradients"
+        ],
+        "answer": "To make the feature descriptor rotation-invariant"
+    },
+    {
+        "question": "What are the typical steps involved in training a CNN?",
+        "options": [
+            "Feature extraction",
+            "Gradient descent",
+            "Weight updates",
+            "Backpropagation",
+            "Forward propagation"
+        ],
+        "answer": "Forward propagation;Backpropagation;Gradient descent;Weight updates"
+    },
+    {
+        "question": "Pernyataan manakah yang benar?",
+        "options": [
+            "Semakin awal layer pada neural network umumnya menghitung fitur input yang lebih kompleks dibandingkan layer-layer terdalam",
+            "Semakin dalam layer pada neural network umumnya menghitung fitur input yang lebih kompleks dibandingkan layer-layer awal"
+        ],
+        "answer": "Semakin dalam layer pada neural network umumnya menghitung fitur input yang lebih kompleks dibandingkan layer-layer awal"
+    },
+    {
+        "question": "What advantages does SURF have over SIFT?",
+        "options": [
+            "Less computationally expensive",
+            "More robust to rotation",
+            "Faster processing",
+            "Lower memory usage",
+            "Better for real-time applications"
+        ],
+        "answer": "Faster processing;Less computationally expensive;Better for real-time applications"
+    },
+    {
+        "question": "What is the main purpose of using the Sobel operator in image processing?",
+        "options": [
+            "Image segmentation",
+            "Gradient detection",
+            "Edge detection",
+            "Image smoothing",
+            "Pixel clustering"
+        ],
+        "answer": "Edge detection"
+    },
+    {
+        "question": "What problem does the sigmoid activation function often cause?",
+        "options": [
+            "Too much nonlinearity",
+            "Exploding gradients",
+            "Vanishing gradients",
+            "Reduces model complexity",
+            "Lack of bias in neurons"
+        ],
+        "answer": "Vanishing gradients"
+    },
+    {
+        "question": "What does the term \"keypoint\" refer to in feature extraction?",
+        "options": [
+            "A region with high color contrast",
+            "A pixel with low intensity variance",
+            "A corner in the image",
+            "A pixel that has a strong and stable feature descriptor",
+            "A location in the image with a large gradient magnitude"
+        ],
+        "answer": "A pixel that has a strong and stable feature descriptor"
+    },
+    {
+        "question": "What are the primary functions of the backpropagation algorithm in CNNs?",
+        "options": [
+            "To pool feature maps",
+            "To adjust the weights of the network",
+            "To predict output probabilities",
+            "To compute gradients",
+            "To update biases"
+        ],
+        "answer": "To compute gradients;To adjust the weights of the network;To update biases"
+    },
+    {
+        "question": "What size is typically used for cells in HOG feature extraction?",
+        "options": [
+            "4x4 pixels",
+            "64x64 pixels",
+            "8x8 pixels",
+            "16x16 pixels",
+            "32x32 pixels"
+        ],
+        "answer": "8x8 pixels"
+    },
+    {
+        "question": "Which of the following is the primary feature extraction method used in HOG?",
+        "options": [
+            "Edge orientation histograms",
+            "Fourier transforms",
+            "Color histograms",
+            "Pixel intensity histograms",
+            "Region segmentation"
+        ],
+        "answer": "Edge orientation histograms"
+    },
+    {
+        "question": "Which operators are used to compute image gradients?",
+        "options": [
+            "Fourier transform",
+            "Sobel operator",
+            "Canny edge detector",
+            "Prewitt operator",
+            "Laplacian operator"
+        ],
+        "answer": "Sobel operator;Laplacian operator;Prewitt operator"
+    },
+    {
+        "question": "What are some limitations of SIFT for real-time object detection?",
+        "options": [
+            "Limited robustness to noise",
+            "Requires a large memory footprint",
+            "Not suitable for small objects",
+            "High computational cost",
+            "Slow feature matching"
+        ],
+        "answer": "High computational cost;Requires a large memory footprint;Slow feature matching"
+    },
+    {
+        "question": "How does pooling reduce the computational complexity of CNNs?",
+        "options": [
+            "By increasing the number of filters",
+            "By introducing nonlinearity",
+            "By normalizing the input data",
+            "By removing unnecessary neurons",
+            "By downsampling the feature map"
+        ],
+        "answer": "By downsampling the feature map"
+    },
+    {
+        "question": "In which part of the CNN architecture is dropout typically applied?",
+        "options": [
+            "Before ReLU activation layers",
+            "Before pooling layers",
+            "After batch normalization layers",
+            "Between fully connected layers",
+            "After convolution layers"
+        ],
+        "answer": "Between fully connected layers"
+    },
+    {
+        "question": "What makes SIFT and SURF keypoint descriptors unique?",
+        "options": [
+            "They store local image gradients",
+            "They are invariant to scale",
+            "They are computed using wavelet transforms",
+            "They are rotation invariant",
+            "They use color histograms"
+        ],
+        "answer": "They are invariant to scale;They store local image gradients;They are rotation invariant"
+    },
+    {
+        "question": "What is the primary role of backpropagation in a CNN?",
+        "options": [
+            "To convolve input feature maps",
+            "To compute gradients and update weights",
+            "To prevent overfitting",
+            "To downsample feature maps",
+            "To apply nonlinear transformations"
+        ],
+        "answer": "To compute gradients and update weights"
+    },
+    {
+        "question": "Masukan untuk classifier adalah",
+        "options": [
+            "kalimat",
+            "semua data yang dapat direpresentasikan pada komputer",
+            "gambar",
+            "suara"
+        ],
+        "answer": "semua data yang dapat direpresentasikan pada komputer"
+    },
+    {
+        "question": "Which of the following is a key difference between SIFT and SURF?",
+        "options": [
+            "SIFT is more robust to noise",
+            "SURF uses integral images for speed",
+            "SIFT is faster than SURF",
+            "SURF uses color information for feature extraction",
+            "SURF does not detect keypoints"
+        ],
+        "answer": "SURF uses integral images for speed"
+    },
+    {
+        "question": "Which operations are typically performed by the Sobel operator in edge detection?",
+        "options": [
+            "Keypoint matching",
+            "Gradient computation",
+            "Region proposal generation",
+            "Convolution with a kernel",
+            "Descriptor calculation"
+        ],
+        "answer": "Convolution with a kernel;Gradient computation"
+    },
+    {
+        "question": "What kind of algorithm is used in Felzenszwalb's image segmentation?",
+        "options": [
+            "Gradient-based algorithm",
+            "Edge-detection algorithm",
+            "Convolutional algorithm",
+            "Region-based algorithm",
+            "Graph-based algorithm"
+        ],
+        "answer": "Graph-based algorithm"
+    },
+    {
+        "question": "What properties of an image are captured by the Histogram of Oriented Gradients (HOG)?",
+        "options": [
+            "Keypoint locations",
+            "Gradient magnitudes",
+            "Color histograms",
+            "Object orientation",
+            "Edge directions"
+        ],
+        "answer": "Edge directions;Gradient magnitudes"
+    },
+    {
+        "question": "When experienced deep learning engineers work on a new problem, they usually use knowledge from previous problems to train a good model, without needing to iterate through multiple different models. True/False?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Perhatikan 2 (dua) array bebas berikut \"a\" dan \"b\": a = np.random.randn(4, 3) # a.shape = (4, 3) b = np.random.randn(3, 2) # b.shape = (3, 2) c = a + b Bagaimanakah dimensi (shape) dari \"c\"?",
+        "options": [
+            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!",
+            "c.shape = (4, 3)",
+            "c.shape = (4, 2)",
+            "c.shape = (3, 3)"
+        ],
+        "answer": "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!"
+    },
+    {
+        "question": "Aktivasi tanh umumnya bekerja lebih baik dibanding fungsi sigmoid untuk hidden unit, karena rata-rata dari output-nya mendekati nol, sehingga terjadi pemusatan data yang lebih baik untuk layer berikutnya. True/False?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Which factors impact the output dimensions of a convolutional layer?",
+        "options": [
+            "Padding",
+            "Stride",
+            "Number of filters",
+            "Pooling window",
+            "Filter size"
+        ],
+        "answer": "Filter size;Stride;Padding"
+    },
+    {
+        "question": "Pada pembelajaran mesin (machine learning), masukan berupa ‘Jawaban (answer)' dan ‘Data'. Keluaran berupa...",
+        "options": [
+            "aturan (rule)",
+            "biner",
+            "bugs",
+            "model"
+        ],
+        "answer": "aturan (rule)"
+    },
+    {
+        "question": "What are the benefits of using stochastic gradient descent (SGD)?",
+        "options": [
+            "Faster convergence",
+            "Applies nonlinearity",
+            "More stable updates",
+            "Requires less memory",
+            "Avoids local minima"
+        ],
+        "answer": "Faster convergence;Requires less memory"
+    },
+    {
+        "question": "Which factors are crucial when evaluating keypoints in SIFT?",
+        "options": [
+            "Spatial location",
+            "Scale",
+            "Orientation",
+            "Color",
+            "Descriptor length"
+        ],
+        "answer": "Orientation;Scale;Spatial location;Descriptor length"
+    },
+    {
+        "question": "What is the key feature of stochastic gradient descent (SGD)?",
+        "options": [
+            "It eliminates the need for activation functions",
+            "It does not involve backpropagation",
+            "It uses a random sample of data to update weights",
+            "It uses the entire dataset to update weights",
+            "It increases the model complexity"
+        ],
+        "answer": "It uses a random sample of data to update weights"
+    },
+    {
+        "question": "Perhatikan 2 (dua) array bebas berikut \"a\" dan \"b\":\na = np.random.randn(2, 3) # a.shape = (2, 3)\nb = np.random.randn(2, 1) # b.shape = (2, 1)\nc = a + b\nBagaimanakah dimensi (shape) dari \"c\"?",
+        "options": [
+            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!",
+            "c.shape = (2, 1)",
+            "c.shape = (3, 2)",
+            "c.shape = (2, 3)"
+        ],
+        "answer": "c.shape = (2, 3)"
+    },  
+    {
+        "question": "Which of the following padding techniques ensures that the output size is the same as the input size?",
+        "options": [
+            "Valid padding",
+            "Full padding",
+            "Reflective padding",
+            "Zero padding",
+            "Same padding"
+        ],
+        "answer": "Same padding"
+    },
+    {
+        "question": "What is the effect of applying a large stride in convolutional layers?",
+        "options": [
+            "It increases the input size",
+            "It reduces the spatial dimensions quickly",
+            "It enhances gradient descent",
+            "It increases the depth of the network",
+            "It increases the number of filters"
+        ],
+        "answer": "It reduces the spatial dimensions quickly"
+    }
+]

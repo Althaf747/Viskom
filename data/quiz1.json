@@ -1,0 +1,1022 @@
+[
+    {
+        "question": "What does a max filter do in image processing?",
+        "options": [
+            "Increases the contrast of the image",
+            "Reduces noise in the image",
+            "Applies a Gaussian blur",
+            "Finds the maximum pixel value in a neighborhood",
+            "Enhances the brightness"
+        ],
+        "answer": "Finds the maximum pixel value in a neighborhood"
+    },
+    {
+        "question": "In what ways is object detection applied in real life? (Select all that apply)",
+        "options": [
+            "Identifying objects in autonomous vehicle navigation",
+            "Recognizing text in handwritten documents",
+            "Detecting objects for real-time surveillance",
+            "Performing sentiment analysis in texts",
+            "Tracking objects in sports events"
+        ],
+        "answer": "Identifying objects in autonomous vehicle navigation;Detecting objects for real-time surveillance;Tracking objects in sports events"
+    },
+    {
+        "question": "Which kernel based operations are common in image processing?",
+        "options": [
+            "Blurring",
+            "Noise removal",
+            "Edge detection",
+            "Object segmentation",
+            "Sharpening"
+        ],
+        "answer": "Blurring;Sharpening;Edge detection;Noise removal"
+    },
+    {
+        "question": "What is the goal of contrast stretching in image processing?",
+        "options": [
+            "To remove background objects",
+            "To sharpen edges",
+            "To reduce image noise",
+            "To improve the dynamic range of pixel intensity values",
+            "To increase brightness"
+        ],
+        "answer": "To improve the dynamic range of pixel intensity values"
+    },
+    {
+        "question": "Why is image segmentation crucial in some computer vision tasks?",
+        "options": [
+            "It assigns class labels to the entire image",
+            "It enhances the brightness of the image",
+            "It increases the image resolution",
+            "It identifies an object's edges",
+            "It isolates individual objects for better analysis"
+        ],
+        "answer": "It isolates individual objects for better analysis"
+    },
+    {
+        "question": "What does the term 'image smoothing' refer to?",
+        "options": [
+            "Compressing the image data",
+            "Adjusting the contrast of the image",
+            "Enhancing the color of the image",
+            "Reducing the noise and fine details in an image",
+            "Increasing the sharpness of an image"
+        ],
+        "answer": "Reducing the noise and fine details in an image"
+    },
+    {
+        "question": "What are some challenges that make object recognition difficult for computers? (Select all that apply)",
+        "options": [
+            "Objects can be occluded by other objects",
+            "Objects are always detected with complete accuracy",
+            "Object orientation may vary",
+            "Objects may have different appearances based on lighting",
+            "Objects can change colors in different contexts"
+        ],
+        "answer": "Objects may have different appearances based on lighting;Objects can be occluded by other objects;Object orientation may vary"
+    },
+    {
+        "question": "What is the purpose of convolution in image processing?",
+        "options": [
+            "To compute the Fourier transform",
+            "To detect edges",
+            "To segment the image",
+            "To apply filters on an image",
+            "To amplify color"
+        ],
+        "answer": "To apply filters on an image"
+    },
+    {
+        "question": "What is the difference between histogram equalization and histogram specification?",
+        "options": [
+            "Histogram equalization sharpens edges, while histogram specification reduces contrast",
+            "Histogram equalization adjusts brightness, while histogram specification smooths the image",
+            "Histogram equalization improves contrast, while histogram specification matches histograms to a reference",
+            "Histogram equalization reduces image size, while histogram specification enhances color",
+            "Histogram equalization reduces noise, while histogram specification compresses the image"
+        ],
+        "answer": "Histogram equalization improves contrast, while histogram specification matches histograms to a reference"
+    },
+    {
+        "question": "What is the primary difference between a min filter and a max filter?",
+        "options": [
+            "The min filter selects the lowest pixel value, while the max filter selects the highest pixel value in a neighborhood",
+            "The min filter reduces image resolution, while the max filter increases it",
+            "The min filter enhances colors, while the max filter blurs them",
+            "The min filter smooths edges, while the max filter sharpens edges",
+            "The min filter increases contrast, while the max filter decreases contrast"
+        ],
+        "answer": "The min filter selects the lowest pixel value, while the max filter selects the highest pixel value in a neighborhood"
+    },
+    {
+        "question": "Which operation is typically used to highlight edges in an image?",
+        "options": [
+            "Median filtering",
+            "Histogram equalization",
+            "Convolution",
+            "Smoothing",
+            "Contrast stretching"
+        ],
+        "answer": "Convolution"
+    },
+    {
+        "question": "What makes teaching a computer to recognize an object harder than teaching a human?",
+        "options": [
+            "Computers need specific data points, while humans use general cognitive abilities",
+            "Humans have built-in vision systems that allow instant recognition",
+            "None of the above",
+            "Humans process contextual information intuitively",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Object classification merupakan salah satu task pada computer vision yang berusaha untuk mencari lokasi suatu objek di dalam citra",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Convolutional Neural Network bukanlah konsep yang sama sekali baru, karena pada dasarnya konsep ini sudah pernah ditemukan oleh Kunihiko Fukushima, Geoff Hinton, dan Yann LeCun pada tahun 1970 dan 1980",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "What is digital image acquisition?",
+        "options": [
+            "Storing an image in digital format",
+            "Enhancing image resolution",
+            "Capturing images using a digital sensor",
+            "Reducing noise in digital images",
+            "Processing images in real-time"
+        ],
+        "answer": "Capturing images using a digital sensor"
+    },
+    {
+        "question": "What is the primary goal of histogram equalization?",
+        "options": [
+            "To reduce image brightness",
+            "To enhance the contrast of an image",
+            "To blur the image",
+            "To increase the size of an image",
+            "To reduce the resolution of an image"
+        ],
+        "answer": "To enhance the contrast of an image"
+    },
+    {
+        "question": "What is one of the main goals of object categorization in computer vision?",
+        "options": [
+            "To detect the location of an object in an image",
+            "To enhance object features for better recognition",
+            "To remove objects from images",
+            "To generate new objects from images",
+            "To classify objects into predefined categories"
+        ],
+        "answer": "To classify objects into predefined categories"
+    },
+    {
+        "question": "What is the goal of histogram equalization?",
+        "options": [
+            "To apply a Gaussian blur",
+            "To reduce the resolution of an image",
+            "To improve the contrast of an image",
+            "To increase the sharpness of an image",
+            "To change the color channels"
+        ],
+        "answer": "To improve the contrast of an image"
+    },
+    {
+        "question": "What does digital image acquisition involve?",
+        "options": [
+            "Changing the brightness of an image",
+            "Acquiring images from digital sensors or cameras",
+            "Converting images into binary data",
+            "Enhancing the quality of an image",
+            "None of the above"
+        ],
+        "answer": "Acquiring images from digital sensors or cameras"
+    },
+    {
+        "question": "What is the main benefit of representing images as matrices in digital image processing?",
+        "options": [
+            "All of the above",
+            "Simplified mathematical operations",
+            "Parallel processing",
+            "Easy access to pixel data",
+            "Efficient storage"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What happens during contrast stretching in image processing?",
+        "options": [
+            "The brightness is reduced",
+            "The image is compressed",
+            "The range of pixel intensities is expanded",
+            "The colors are adjusted",
+            "The resolution of the image is increased"
+        ],
+        "answer": "The range of pixel intensities is expanded"
+    },
+    {
+        "question": "What is the purpose of a kernel in image filtering?",
+        "options": [
+            "To calculate the intensity difference between pixels",
+            "To detect object boundaries",
+            "To apply a specific transformation to the pixels in a local region",
+            "To represent a pixel's neighborhood",
+            "To reduce image size"
+        ],
+        "answer": "To apply a specific transformation to the pixels in a local region"
+    },
+    {
+        "question": "Which of the following is a common use of convolution in image processing?",
+        "options": [
+            "Color adjustment",
+            "Edge detection",
+            "Histogram equalization",
+            "Image segmentation",
+            "Image compression"
+        ],
+        "answer": "Edge detection"
+    },
+    {
+        "question": "Which of the following are examples of object recognition systems? (Select all that apply)",
+        "options": [
+            "A hand gesture detection system",
+            "A text detection system in scanned documents",
+            "An audio recognition system",
+            "A system that counts the number of objects in an image",
+            "A face recognition system in smartphones"
+        ],
+        "answer": "A face recognition system in smartphones;A text detection system in scanned documents;A hand gesture detection system;A system that counts the number of objects in an image"
+    },
+    {
+        "question": "Which tasks are common in both image processing and computer vision?",
+        "options": [
+            "Noise reduction",
+            "Scene understanding",
+            "Image enhancement",
+            "Feature extraction",
+            "Image segmentation"
+        ],
+        "answer": "Image enhancement;Feature extraction;Image segmentation"
+    },
+    {
+        "question": "Which filter is often used for sharpening images in digital image processing?",
+        "options": [
+            "Laplacian filter",
+            "Median filter",
+            "Gaussian filter",
+            "Sobel filter",
+            "Min filter"
+        ],
+        "answer": "Laplacian filter"
+    },
+    {
+        "question": "What is a common use of contrast stretching in image processing?",
+        "options": [
+            "To detect edges in an image",
+            "To smooth the image",
+            "To improve the visibility of details in an image",
+            "To reduce the size of an image",
+            "To adjust the brightness"
+        ],
+        "answer": "To improve the visibility of details in an image"
+    },
+    {
+        "question": "What are the main elements of a digital image?",
+        "options": [
+            "Resolution",
+            "Brightness levels",
+            "Histogram",
+            "Pixels",
+            "Frequency components"
+        ],
+        "answer": "Pixels"
+    },
+    {
+        "question": "Which image operation stretches the range of intensity values across a larger range?",
+        "options": [
+            "Image segmentation",
+            "Image smoothing",
+            "Contrast stretching",
+            "Histogram equalization",
+            "Thresholding"
+        ],
+        "answer": "Contrast stretching"
+    },
+    {
+        "question": "Which are examples of object detection challenges? (Select all that apply)",
+        "options": [
+            "Variability in object appearance",
+            "High-quality cameras",
+            "Occlusion",
+            "Shadows and lighting conditions",
+            "Image resolution"
+        ],
+        "answer": "Occlusion;Image resolution;Shadows and lighting conditions;Variability in object appearance"
+    },
+    {
+        "question": "Berdasarkan penjelasan Fei-Fei Li yang ada pada slide kuliah, dapat disimpulkan bahwa komputer telah mampu menyamai kemampuan manusia",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Which of the following are considered image processing operations?",
+        "options": [
+            "Median filtering",
+            "Image blurring",
+            "Matrix multiplication",
+            "Convolution",
+            "Fourier transform"
+        ],
+        "answer": "Convolution;Image blurring;Median filtering;Fourier transform"
+    },
+    {
+        "question": "What is the result of applying a convolutional kernel to an image?",
+        "options": [
+            "A histogram of image intensities",
+            "A new image with enhanced features",
+            "An image with reduced resolution",
+            "A binary version of the image",
+            "An image with adjusted colors"
+        ],
+        "answer": "A new image with enhanced features"
+    },
+    {
+        "question": "How is image resolution commonly defined?",
+        "options": [
+            "The intensity of the pixels",
+            "The size of the image file",
+            "The number of colors an image can display",
+            "The number of bits per pixel",
+            "The number of pixels per unit area"
+        ],
+        "answer": "The number of pixels per unit area"
+    },
+    {
+        "question": "Which techniques are used for image contrast enhancement?",
+        "options": [
+            "Contrast stretching",
+            "Image smoothing",
+            "Log transformation",
+            "Powerlaw transformation",
+            "Histogram equalization"
+        ],
+        "answer": "Histogram equalization;Contrast stretching;Log transformation;Powerlaw transformation"
+    },
+    {
+        "question": "Why are bounding boxes important in object detection? (Select all that apply)",
+        "options": [
+            "They assist in tracking the motion of objects",
+            "They segment objects based on color intensity",
+            "They provide a visual indication of where the object is located",
+            "They help differentiate multiple objects in a single image",
+            "They help localize objects in an image"
+        ],
+        "answer": "They help localize objects in an image;They provide a visual indication of where the object is located;They help differentiate multiple objects in a single image"
+    },
+    {
+        "question": "Which image processing techniques are used for edge detection?",
+        "options": [
+            "Fourier transform",
+            "Convolution with Sobel filter",
+            "Canny edge detector",
+            "Median filtering",
+            "Laplacian of Gaussian (LoG)"
+        ],
+        "answer": "Convolution with Sobel filter;Laplacian of Gaussian (LoG);Canny edge detector"
+    },
+    {
+        "question": "Kamera pada dasarnya merupakan ‘mesin' yang buta, karena",
+        "options": [
+            "Pernyataan tersebut salah, karena teknologi kamera sekarang sudah sangat canggih",
+            "Kamera dapat mengambil gambar dengan resolusi yang sangat tinggi",
+            "Pernyataan tersebut salah, kamera bukan merupakan ‘mesin' yang buta",
+            "Kamera mengambil gambar dengan cara mengkonversi cahaya menjadi array bilangan dua dimensi (yang disebut sebagai piksel) yang merupakan lifeless number"
+        ],
+        "answer": "Kamera mengambil gambar dengan cara mengkonversi cahaya menjadi array bilangan dua dimensi (yang disebut sebagai piksel) yang merupakan lifeless number"
+    },
+    {
+        "question": "What is a common kernel size used in convolutional operations?",
+        "options": [
+            "3x3",
+            "5x5",
+            "7x7",
+            "1x1",
+            "9x9"
+        ],
+        "answer": "3x3"
+    },
+    {
+        "question": "Which of the following elements affects the resolution of a digital image?",
+        "options": [
+            "The number of color channels",
+            "The image's brightness",
+            "The image's depth",
+            "The number of pixels per unit area",
+            "The image's size on the screen"
+        ],
+        "answer": "The number of pixels per unit area"
+    },
+    {
+        "question": "What is the purpose of histogram specification in image processing?",
+        "options": [
+            "To reduce the brightness of an image",
+            "To match the histogram of one image to another",
+            "To increase the intensity values of an image",
+            "To change the resolution of an image",
+            "To detect edges in an image"
+        ],
+        "answer": "To match the histogram of one image to another"
+    },
+    {
+        "question": "Which type of filter is often used for image smoothing?",
+        "options": [
+            "Sobel filter",
+            "Median filter",
+            "Min filter",
+            "Laplacian filter",
+            "Gaussian filter"
+        ],
+        "answer": "Gaussian filter"
+    },
+    {
+        "question": "Which of the following describes the process of contrast stretching?",
+        "options": [
+            "Compressing the image data",
+            "Reducing the intensity range of an image",
+            "Enhancing the colors of an image",
+            "Applying smoothing filters",
+            "Spreading the intensity values of an image across a wider range"
+        ],
+        "answer": "Spreading the intensity values of an image across a wider range"
+    },
+    {
+        "question": "Which tasks are typically performed by computer vision systems in medical diagnostics? (Select all that apply)",
+        "options": [
+            "Object recognition",
+            "Real-time voice transcription",
+            "Image classification for disease diagnosis",
+            "Image segmentation for tumor detection",
+            "Enhancing image quality for better analysis"
+        ],
+        "answer": "Object recognition;Image segmentation for tumor detection;Image classification for disease diagnosis;Enhancing image quality for better analysis"
+    },
+    {
+        "question": "What is meant by 'image acquisition'?",
+        "options": [
+            "Compressing an image for storage",
+            "Extracting features from an image",
+            "Capturing and converting images into digital format",
+            "Enhancing the resolution of an image",
+            "Analyzing images for object recognition"
+        ],
+        "answer": "Capturing and converting images into digital format"
+    },
+    {
+        "question": "Which of the following are types of image filters or kernels?",
+        "options": [
+            "Histogram filter",
+            "Median filter",
+            "Sobel operator",
+            "Max filter",
+            "Laplacian filter"
+        ],
+        "answer": "Median filter;Sobel operator;Laplacian filter;Max filter"
+    },
+    {
+        "question": "Why is object detection critical for autonomous vehicles? (Select all that apply)",
+        "options": [
+            "It assists in lane detection",
+            "It helps identify pedestrians and other vehicles",
+            "It helps the vehicle recognize obstacles on the road",
+            "It allows for noise removal from audio data",
+            "It aids in detecting traffic signals and signs"
+        ],
+        "answer": "It helps the vehicle recognize obstacles on the road;It aids in detecting traffic signals and signs;It helps identify pedestrians and other vehicles;It assists in lane detection"
+    },
+    {
+        "question": "How is computer vision related to image processing?",
+        "options": [
+            "Image processing focuses on image manipulation, while computer vision focuses on understanding images",
+            "Image processing enhances images for better computer vision results",
+            "Computer vision only applies to video data",
+            "They are completely separate fields with no relation",
+            "Image processing is the theoretical foundation of computer vision"
+        ],
+        "answer": "Image processing focuses on image manipulation, while computer vision focuses on understanding images;Image processing enhances images for better computer vision results"
+    },
+    {
+        "question": "Which of the following is an example of an image processing operation?",
+        "options": [
+            "All of the above",
+            "Image segmentation",
+            "Feature extraction",
+            "None of the above",
+            "Edge detection"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "What is the main purpose of image thresholding?",
+        "options": [
+            "To increase the image's brightness",
+            "To increase contrast",
+            "To separate objects from the background",
+            "To smooth an image",
+            "To reduce image size"
+        ],
+        "answer": "To separate objects from the background"
+    },
+    {
+        "question": "What is the difference between image processing and image analysis?",
+        "options": [
+            "Image processing reduces noise, while image analysis smooths images",
+            "Image processing converts images, while image analysis converts video",
+            "Image processing enhances images, while image analysis extracts information",
+            "Image processing performs segmentation, while image analysis performs compression",
+            "Image processing reduces the image size, while image analysis reduces pixel intensity"
+        ],
+        "answer": "Image processing enhances images, while image analysis extracts information"
+    },
+    {
+        "question": "Which of the following are typical uses of image filtering?",
+        "options": [
+            "Resizing an image",
+            "Enhancing specific features",
+            "Noise reduction",
+            "Blurring an image",
+            "Image sharpening"
+        ],
+        "answer": "Noise reduction;Image sharpening;Enhancing specific features;Blurring an image"
+    },
+    {
+        "question": "Which type of filter is commonly used for detecting diagonal edges in an image?",
+        "options": [
+            "Max filter",
+            "Laplacian filter",
+            "Min filter",
+            "Gaussian filter",
+            "Sobel filter"
+        ],
+        "answer": "Sobel filter"
+    },
+    {
+        "question": "What is the effect of using a large kernel in image smoothing?",
+        "options": [
+            "The image becomes blurrier",
+            "The image becomes sharper",
+            "The resolution is reduced",
+            "The image contrast is increased",
+            "The image becomes brighter"
+        ],
+        "answer": "The image becomes blurrier"
+    },
+    {
+        "question": "Which techniques are commonly used in object segmentation? (Select all that apply)",
+        "options": [
+            "Motion tracking",
+            "Edge detection",
+            "Region-based segmentation",
+            "Pixel-wise labeling",
+            "Thresholding"
+        ],
+        "answer": "Region-based segmentation;Thresholding;Edge detection;Pixel-wise labeling"
+    },
+    {
+        "question": "What is digital image processing?",
+        "options": [
+            "A technique to convert an image into information",
+            "The process of capturing images with a digital camera",
+            "An algorithm to reduce image file size",
+            "The process of analyzing and modifying a digital image to improve its quality",
+            "Using filters to change image colors"
+        ],
+        "answer": "The process of analyzing and modifying a digital image to improve its quality"
+    },
+    {
+        "question": "Which image operation involves creating a binary image based on intensity thresholds?",
+        "options": [
+            "Thresholding",
+            "Convolution",
+            "Smoothing",
+            "Histogram equalization",
+            "Contrast stretching"
+        ],
+        "answer": "Thresholding"
+    },
+    {
+        "question": "What are the key challenges in real-time object detection? (Select all that apply)",
+        "options": [
+            "Accuracy in varying conditions",
+            "Computational power requirements",
+            "Complex data storage requirements",
+            "Processing speed",
+            "Handling multiple objects at once"
+        ],
+        "answer": "Processing speed;Accuracy in varying conditions;Handling multiple objects at once;Computational power requirements"
+    },
+    {
+        "question": "Which tasks are considered part of object recognition in computer vision? (Select all that apply)",
+        "options": [
+            "Locating the object in an image",
+            "Matching objects across different images",
+            "Determining the object's size",
+            "Identifying the class of an object",
+            "Enhancing the object's features"
+        ],
+        "answer": "Identifying the class of an object"
+    },
+    {
+        "question": "What does the kernel represent in the convolution operation?",
+        "options": [
+            "A filter applied to an image",
+            "A pixel intensity value",
+            "The border of an image",
+            "The center of an image",
+            "The resolution of an image"
+        ],
+        "answer": "A filter applied to an image"
+    },
+     {
+        "question": "Which of the following are goals of image processing?",
+        "options": [
+            "Edge detection",
+            "Image indexing",
+            "Noise removal from images",
+            "Image quality enhancement",
+            "All of the above"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which methods are used for image smoothing?",
+        "options": [
+            "Gaussian filter",
+            "Histogram equalization",
+            "Median filter",
+            "Mean filter",
+            "Minimum filter"
+        ],
+        "answer": "Gaussian filter;Median filter;Mean filter"
+    },
+    {
+        "question": "Which type of filter is commonly used for edge detection in images?",
+        "options": [
+            "Max filter",
+            "Median filter",
+            "Gaussian filter",
+            "Sobel filter",
+            "Min filter"
+        ],
+        "answer": "Sobel filter"
+    },
+    {
+        "question": "Which filter is typically used to detect vertical edges in an image?",
+        "options": [
+            "Laplacian filter",
+            "Median filter",
+            "Gaussian filter",
+            "Prewitt filter",
+            "Max filter"
+        ],
+        "answer": "Prewitt filter"
+    },
+    {
+        "question": "What is the primary function of the max filter in image processing?",
+        "options": [
+            "To increase contrast",
+            "To enhance edges",
+            "To find the maximum pixel intensity in a neighborhood",
+            "To perform color correction",
+            "To detect shapes"
+        ],
+        "answer": "To find the maximum pixel intensity in a neighborhood"
+    },
+    {
+        "question": "In contrast stretching, what happens to the pixel intensity values?",
+        "options": [
+            "They are inverted",
+            "They are spread across a wider range",
+            "They are reduced to a smaller range",
+            "They are averaged across the image",
+            "They are smoothed"
+        ],
+        "answer": "They are spread across a wider range"
+    },
+    {
+        "question": "What does the term \"contrast stretching\" refer to in image processing?",
+        "options": [
+            "Sharpening the image",
+            "Expanding the intensity range of pixel values to improve contrast",
+            "Reducing the size of the image",
+            "Enhancing the color of the image",
+            "Increasing the image resolution"
+        ],
+        "answer": "Expanding the intensity range of pixel values to improve contrast"
+    },    
+    {
+        "question": "Which of the following is NOT typically considered a digital image operation?",
+        "options": [
+            "Contrast enhancement",
+            "Object classification",
+            "Binary thresholding",
+            "Grayscale conversion",
+            "Image rotation"
+        ],
+        "answer": "Object classification"
+    },
+    {
+        "question": "Which of the following are essential elements of a digital image?",
+        "options": [
+            "Compression ratio",
+            "Pixels",
+            "Image resolution",
+            "Color channels",
+            "Bit depth"
+        ],
+        "answer": "Pixels;Bit depth;Color channels;Image resolution"
+    },
+    {
+        "question": "What does the term \"convolution\" refer to in digital image processing?",
+        "options": [
+            "A way to segment an image",
+            "A method for detecting object contours",
+            "A technique for adjusting brightness",
+            "A mathematical operation that applies a kernel to an image",
+            "An approach for rotating an image"
+        ],
+        "answer": "A mathematical operation that applies a kernel to an image"
+    },
+    {
+        "question": "What does the term \"kernel size\" refer to in the context of convolution?",
+        "options": [
+            "The size of the histogram",
+            "The size of the image being processed",
+            "The dimensions of the matrix used in convolution",
+            "The pixel intensity",
+            "The number of filters used"
+        ],
+        "answer": "The dimensions of the matrix used in convolution"
+    },
+    {
+        "question": "What are typical applications of computer vision? (Select all that apply)",
+        "options": [
+            "Natural language processing",
+            "Social media content management",
+            "Face recognition systems",
+            "Self-driving vehicles",
+            "Automated inspection in factories"
+        ],
+        "answer": "Automated inspection in factories;Face recognition systems;Self-driving vehicles"
+    },
+    {
+        "question": "Which of the following is a shared task between computer vision and image processing?",
+        "options": [
+            "Edge detection",
+            "Object recognition",
+            "Feature extraction",
+            "All of the above",
+            "Image compression"
+        ],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Mata seorang anak kecil dapat mengambil 1 (satu) buah gambar setiap 200 milidetik",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "What is the function of bounding boxes in object detection?",
+        "options": [
+            "To enclose and localize objects in an image",
+            "To highlight specific colors in an image",
+            "To smooth the detected object",
+            "To detect edges of an object",
+            "To classify regions based on textures"
+        ],
+        "answer": "To enclose and localize objects in an image"
+    },
+    {
+        "question": "Which factors influence object detection accuracy in computer vision? (Select all that apply)",
+        "options": [
+            "Object appearance variations",
+            "Efficiency of the algorithm",
+            "Quality of input images",
+            "Number of objects in the image",
+            "Complexity of the scene"
+        ],
+        "answer": "Quality of input images;Object appearance variations;Complexity of the scene;Efficiency of the algorithm"
+    },
+    {
+        "question": "Which processes are involved in object segmentation? (Select all that apply)",
+        "options": [
+            "Annotating regions of interest",
+            "Labeling each pixel with a category",
+            "Estimating object boundaries",
+            "Reconstructing 3D models from 2D images",
+            "Dividing an image into multiple parts"
+        ],
+        "answer": "Dividing an image into multiple parts;Labeling each pixel with a category;Estimating object boundaries"
+    },
+    {
+        "question": "What happens to an image's intensity values during contrast stretching?",
+        "options": [
+            "They are inverted",
+            "They are randomized",
+            "They are expanded to cover a wider range",
+            "They are reduced to a smaller range",
+            "They are smoothed"
+        ],
+        "answer": "They are expanded to cover a wider range"
+    },
+    {
+        "question": "What does the Laplacian filter do in image processing?",
+        "options": [
+            "Increases the brightness of the image",
+            "Compresses the image data",
+            "Enhances image contrast",
+            "Detects edges by identifying areas of rapid intensity change",
+            "Smooths the image to reduce noise"
+        ],
+        "answer": "Detects edges by identifying areas of rapid intensity change"
+    },
+    {
+        "question": "Why is object detection considered harder than object recognition?",
+        "options": [
+            "Object detection deals with 3D objects, while recognition is 2D",
+            "Object detection needs a bigger dataset than recognition",
+            "Object detection requires more powerful algorithms",
+            "Object detection must identify both the class and the location of the object",
+            "Object detection needs specialized hardware"
+        ],
+        "answer": "Object detection must identify both the class and the location of the object"
+    },
+    {
+        "question": "Which of the following filters is most commonly used to detect horizontal edges in images?",
+        "options": [
+            "Laplacian filter",
+            "Prewitt filter",
+            "Max filter",
+            "Median filter",
+            "Gaussian filter"
+        ],
+        "answer": "Prewitt filter"
+    },
+    {
+        "question": "Which of the following operations is used to detect sharp changes in pixel intensity?",
+        "options": [
+            "Edge detection",
+            "Gaussian filtering",
+            "Image smoothing",
+            "Histogram specification",
+            "Contrast stretching"
+        ],
+        "answer": "Edge detection"
+    },
+    {
+        "question": "Which filter is most commonly used to detect horizontal edges in images?",
+        "options": [
+            "Laplacian filter",
+            "Prewitt filter",
+            "Max filter",
+            "Median filter",
+            "Gaussian filter"
+        ],
+        "answer": "Prewitt filter"
+    },
+    {
+        "question": "What does a median filter do in image processing?",
+        "options": [
+            "It reduces noise by replacing each pixel with the median value in its neighborhood",
+            "It blurs the image",
+            "It finds the average pixel value",
+            "It applies contrast stretching",
+            "It sharpens the image by enhancing edges"
+        ],
+        "answer": "It reduces noise by replacing each pixel with the median value in its neighborhood"
+    },
+    {
+        "question": "Which of the following filters are used for noise reduction?",
+        "options": [
+            "Minimum filter",
+            "Median filter",
+            "Mean filter",
+            "Sobel operator",
+            "Gaussian filter"
+        ],
+        "answer": "Mean filter;Median filter;Gaussian filter"
+    },
+    {
+        "question": "Siapakah nama Profesor yang muncul di awal slide utama kuliah pekan ke-1?",
+        "options": [
+            "Andrew Ng, Stanford University",
+            "Andrew Ng, Baidu",
+            "Fei-Fei Li, Stanford University",
+            "Fei-Fei Li, MIT"
+        ],
+        "answer": "Fei-Fei Li, Stanford University"
+    },
+    {
+        "question": "What is the purpose of histogram matching?",
+        "options": [
+            "To increase image contrast",
+            "To increase the image resolution",
+            "To match the histogram of one image to another",
+            "To detect edges in an image",
+            "To reduce the brightness of an image"
+        ],
+        "answer": "To match the histogram of one image to another"
+    },
+    {
+        "question": "In computer vision, which is NOT typically a challenge for object detection?",
+        "options": [
+            "Objects being rotated or at different angles",
+            "Varying object sizes in the same image",
+            "Multiple objects overlapping",
+            "Objects changing their appearance due to lighting",
+            "Processing high-quality images with a large dataset"
+        ],
+        "answer": "Processing high-quality images with a large dataset"
+    },
+    {
+        "question": "What is the purpose of the Gaussian filter in image processing?",
+        "options": [
+            "To enhance color details",
+            "To convert the image into grayscale",
+            "To smooth an image and reduce noise",
+            "To increase the contrast",
+            "To detect edges"
+        ],
+        "answer": "To smooth an image and reduce noise"
+    },
+    {
+        "question": "Which of the following operations is used to enhance the contrast of an image?",
+        "options": [
+            "Morphological operations",
+            "Binary thresholding",
+            "Histogram equalization",
+            "Image smoothing",
+            "Gaussian filtering"
+        ],
+        "answer": "Histogram equalization"
+    },
+    {
+        "question": "Which operation is used to highlight the edges in an image?",
+        "options": [
+            "Image segmentation",
+            "Brightness adjustment",
+            "Edge detection",
+            "Histogram specification",
+            "Smoothing"
+        ],
+        "answer": "Edge detection"
+    },
+    {
+        "question": "Fungsi pada numpy yang digunakan untuk mendapatkan dimensi dari suatu matrix/vektor X adalah",
+        "options": [
+            "X.shape",
+            "X.reshape",
+            "X.shape()",
+            "X.reshape()"
+        ],
+        "answer": "X.shape"
+    },
+    {
+        "question": "What is the main advantage of using a median filter over a Gaussian filter?",
+        "options": [
+            "It processes images faster",
+            "It reduces the image resolution",
+            "It sharpens the image more effectively",
+            "It enhances image contrast",
+            "It better preserves edges while removing noise"
+        ],
+        "answer": "It better preserves edges while removing noise"
+    },
+    {
+        "question": "What is the effect of using a small kernel in a smoothing filter?",
+        "options": [
+            "The image becomes less blurred",
+            "The color is enhanced",
+            "The image contrast is increased",
+            "The resolution is reduced",
+            "The image becomes brighter"
+        ],
+        "answer": "The image becomes less blurred"
+    }
+    
+]

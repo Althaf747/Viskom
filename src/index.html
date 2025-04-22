@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="quiz-card">
+            <button id="go-to-quiz-review" onclick="window.location.href='viewer.html';">Go to Quiz Review</button>
+            <h1>Quiz Application</h1>
+            <div id="question-container">
+                <p id="question-number"></p> <!-- Placeholder for question number -->
+                <p id="question"></p> <!-- Question text -->
+                <div id="options"></div>
+            </div>
+            <!-- Dropdown for selecting a CSV file -->
+            <select id="csv-file-selector" onchange="loadCSVFromSelection(event)">
+                <option value="">Select a CSV file</option>
+                <option value="file1.csv">CSV 1</option>
+                <option value="file2.csv">CSV 2</option>
+            </select>
+            <div id="button-container">
+                <button id="check-answer-button" onclick="checkAnswer()" style="display: none;">Check Answer</button>
+                <button id="next-button" onclick="nextQuestion()" disabled>Start Quiz</button>
+            </div>
+            <button id="reset-button" onclick="resetQuiz()">Reset</button>
+            <p id="score"></p>
+        </div>
+    </div>
+    
+    <script src="quiz.js"></script>
+</body>
+</html>

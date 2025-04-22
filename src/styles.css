@@ -1,0 +1,191 @@
+/* Body styling to center the content */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Center the quiz container */
+.quiz-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Quiz card with fixed size */
+.quiz-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1000px; /* Static width to hold long answers */
+    text-align: center;
+}
+
+/* Style for the correct answer display */
+.quiz-card div {
+    background-color: #d4edda;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #155724;
+    font-weight: bold;
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Options styling with left-alignment */
+#options {
+    margin: 20px 0;
+    text-align: left; /* Align text to the left */
+}
+
+#options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Dropdown styling */
+#csv-file-selector {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* Score text */
+#score {
+    margin-top: 20px;
+}
+
+/* Styling for the buttons container to align them side by side */
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Styling for the Check Answer button */
+#check-answer-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%; /* Make sure it fits beside Next button */
+}
+
+#check-answer-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Styling for the Next button */
+#next-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 48%; /* Make sure it fits beside Check Answer button */
+}
+
+#next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#go-to-quiz-review {
+    position: absolute;
+    top: 100px;
+    right: 440px;
+    width: 200px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #ea3333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#go-to-quiz-review:hover {
+    opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .quiz-card {
+        padding: 15px;
+        width: 90%;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+
+    #button-container {
+        flex-direction: column; /* Stack buttons vertically */
+    }
+
+    #check-answer-button, #next-button {
+        width: 100%; /* Full width for buttons on smaller screens */
+        margin-bottom: 10px; /* Add space between buttons */
+    }
+
+    #go-to-quiz-review {
+        width: 100%;
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 20px;
+    }
+}
+
+/* For small screens like phones */
+@media (max-width: 480px) {
+    .quiz-card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #button-container {
+        flex-direction: column;
+    }
+
+    #check-answer-button, #next-button {
+        width: 100%;
+    }
+
+    #go-to-quiz-review {
+        font-size: 12px;
+        width: 100%;
+    }
+}
