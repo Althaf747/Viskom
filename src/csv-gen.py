@@ -8,7 +8,7 @@ with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Define the path where you want to save the CSV
-local_path = r"C:\Users"
+local_path = r"C:\Users\altha\Downloads\Viskom\data\quiz2_questions.csv"
 
 # Ensure the directory exists
 os.makedirs(os.path.dirname(local_path), exist_ok=True)
