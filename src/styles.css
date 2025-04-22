@@ -67,7 +67,7 @@ button:disabled {
 }
 
 /* Dropdown styling */
-#csv-file-selector {
+#json-file-selector {
     margin-top: 20px;
     width: 100%;
 }
