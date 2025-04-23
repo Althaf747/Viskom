@@ -88,6 +88,16 @@
         "answer": "Object detection"
     },
     {
+        "question": "Anda telah membangun jaringan menggunakan aktivasi tanh untuk semua hidden layer. Anda menginisialisasi bobot ke nilai yang relatif besar, menggunakan np.random.randn (.., ..) * 1000. Apa yang akan terjadi?",
+        "options": [
+            "Hal ini akan menyebabkan input tanh menjadi sangat besar, sehingga menyebabkan gradien juga menjadi besar. Oleh karena itu, Anda harus menyetel alpha menjadi sangat kecil untuk mencegah penyimpangan; ini akan memperlambat pembelajaran.",
+            "Hal ni akan menyebabkan input tanh menjadi sangat besar, menyebabkan unit menjadi 'sangat aktif' dan dengan demikian mempercepat pembelajaran dibandingkan jika bobot harus dimulai dari nilai kecil.",
+            "Tidak masalah. Selama Anda menginisialisasi bobot secara acak, penurunan gradien tidak terpengaruh oleh apakah bobot tersebut besar atau kecil.",
+            "Hal ini akan menyebabkan input tanh menjadi sangat besar, sehingga menyebabkan gradien mendekati nol. Algoritma pengoptimalan akan menjadi lambat."
+        ],
+        "answer": "Hal ini akan menyebabkan input tanh menjadi sangat besar, sehingga menyebabkan gradien mendekati nol. Algoritma pengoptimalan akan menjadi lambat."
+    },  
+    {
         "question": "What mathematical operation is performed in the Sobel operator?",
         "options": [
             "Calculating the orientation of keypoints",
@@ -491,6 +501,28 @@
         "answer": "To propagate errors backward and update weights"
     },
     {
+        "question": "Which of the following is the most common activation function used in CNNs?",
+        "options": [
+            "ELU",
+            "Sigmoid",
+            "Tanh",
+            "ReLU",
+            "Softmax"
+        ],
+        "answer": "ReLU"
+    }, 
+    {
+        "question": "What is the purpose of using padding in convolutional layers?",
+        "options": [
+            "To increase the size of the feature map",
+            "To avoid reducing the spatial size of the feature map",
+            "To add extra parameters to the model",
+            "To speed up the training process",
+            "To increase the stride"
+        ],
+        "answer": "To avoid reducing the spatial size of the feature map"
+    },    
+    {
         "question": "Ketika engineer deep learning yang berpengalaman bekerja pada suatu problem baru, mereka biasanya menggunakan pengetahuan dari problem yang sebelumnya untuk melatih model yang baik, tanpa memerlukan iterasi berkali-kali melalui model yang berbeda. True/False?",
         "options": [
             "True",
@@ -630,16 +662,6 @@
         "answer": "Scale Invariant Feature Transformation"
     },
     {
-        "question": "Diketahui bahwa np.dot(a,b) melakukan perkalian matriks pada a dan b, sedangkan a*b melakukan perkalian secara element-wise. Perhatikan 2 (dua) array bebas berikut 'a' dan 'b':\na = np.random.randn(12288, 150) # a.shape = (12288, 150)\nb = np.random.randn(150, 45) # b.shape = (150, 45)\nc = np.dot(a, b). Bagaimanakah dimensi (shape) dari 'c'?",
-        "options": [
-            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!",
-            "c.shape = (12288, 150)",
-            "c.shape = (12288, 45)",
-            "c.shape = (150, 150)"
-        ],
-        "answer": "c.shape = (12288, 45)"
-    },
-    {
         "question": "What makes HOG suitable for object detection?",
         "options": [
             "Robustness to changes in lighting",
@@ -735,6 +757,17 @@
         ],
         "answer": "A pixel that has a strong and stable feature descriptor"
     },
+    {
+        "question": "What does the term 'gradient magnitude' represent in image processing?",
+        "options": [
+            "The rate of change in the x-axis",
+            "The rate of change in the y-axis",
+            "The direction of the greatest rate of change",
+            "The total intensity of color change",
+            "The L2-norm of the gradient vector"
+        ],
+        "answer": "The L2-norm of the gradient vector"
+    },    
     {
         "question": "What are the primary functions of the backpropagation algorithm in CNNs?",
         "options": [
@@ -856,6 +889,50 @@
         "answer": "SURF uses integral images for speed"
     },
     {
+        "question": "What is the effect of increasing the stride in a convolutional layer?",
+        "options": [
+            "It increases the training time",
+            "It applies more filters to the input",
+            "It reduces the spatial dimensions of the output feature map",
+            "It increases the depth of the output feature map",
+            "It increases the number of parameters"
+        ],
+        "answer": "It reduces the spatial dimensions of the output feature map"
+    },    
+    {
+        "question": "What are the main advantages of using deeper neural networks?",
+        "options": [
+            "They can model complex functions",
+            "They can represent hierarchical patterns",
+            "They are less prone to overfitting",
+            "They are easier to train",
+            "They reduce training time"
+        ],
+        "answer": "They can model complex functions; They can represent hierarchical patterns"
+    },    
+    {
+        "question": "What makes SURF features robust for object recognition?",
+        "options": [
+            "High-speed computation",
+            "Scale invariance",
+            "Texture analysis",
+            "Rotation invariance",
+            "Real-time matching"
+        ],
+        "answer": "Scale invariance; Rotation invariance; High-speed computation"
+    },    
+    {
+        "question": "Which are common attributes of the Sobel operator?",
+        "options": [
+            "It detects edges",
+            "It applies a convolution",
+            "It smooths image noise",
+            "It assigns higher weights to adjacent pixels",
+            "It works only on grayscale images"
+        ],
+        "answer": "It detects edges; It assigns higher weights to adjacent pixels; It applies a convolution"
+    },    
+    {
         "question": "Which operations are typically performed by the Sobel operator in edge detection?",
         "options": [
             "Keypoint matching",
@@ -934,7 +1011,7 @@
             "model"
         ],
         "answer": "aturan (rule)"
-    },
+    },  
     {
         "question": "What are the benefits of using stochastic gradient descent (SGD)?",
         "options": [
@@ -946,6 +1023,72 @@
         ],
         "answer": "Faster convergence;Requires less memory"
     },
+    {
+        "question": "What is a common activation function used in the output layer of a neural network for classification tasks?",
+        "options": [
+            "Softmax",
+            "Sigmoid",
+            "ReLU",
+            "Leaky ReLU",
+            "Tanh"
+        ],
+        "answer": "Softmax"
+    },    
+    {
+        "question": "What is a characteristic of the Softmax function in CNNs?",
+        "options": [
+            "It reduces dimensionality",
+            "It applies normalization",
+            "It increases feature map size",
+            "It trains faster",
+            "It converts logits into probabilities"
+        ],
+        "answer": "It converts logits into probabilities"
+    },    
+    {
+        "question": "Which methods are used to evaluate the performance of a CNN model?",
+        "options": [
+            "Accuracy",
+            "Crossentropy loss",
+            "Precision",
+            "Mean Squared Error (MSE)",
+            "F1 Score"
+        ],
+        "answer": "Accuracy; Crossentropy loss; Precision; F1 Score"
+    },    
+    {
+        "question": "How does convolution operation in CNN work?",
+        "options": [
+            "It applies filters on the input feature map",
+            "It generates region proposals",
+            "It uses sliding windows",
+            "It applies non-maximum suppression",
+            "It regresses bounding boxes"
+        ],
+        "answer": "It applies filters on the input feature map"
+    },    
+    {
+        "question": "What are the common causes of overfitting in a neural network?",
+        "options": [
+            "Having too many neurons",
+            "Not using dropout",
+            "Having a high learning rate",
+            "Using too few neurons",
+            "Training for too many epochs"
+        ],
+        "answer": "Having too many neurons; Training for too many epochs; Not using dropout"
+    },  
+    {
+        "question": "What is a key feature of the VGG network?",
+        "options": [
+            "It regresses bounding boxes",
+            "It uses small 3x3 convolution filters",
+            "It predicts object masks",
+            "It uses a region proposal network",
+            "It introduces anchor boxes"
+        ],
+        "answer": "It uses small 3x3 convolution filters"
+    },      
     {
         "question": "Which factors are crucial when evaluating keypoints in SIFT?",
         "options": [
@@ -999,5 +1142,135 @@
             "It increases the number of filters"
         ],
         "answer": "It reduces the spatial dimensions quickly"
+    },
+    {
+        "question": "What are the advantages of using keypoints in object recognition?",
+        "options": [
+            "They improve feature matching accuracy",
+            "They provide rotation invariance",
+            "They allow for scale-invariant detection",
+            "They eliminate the need for color detection",
+            "They reduce the computational complexity"
+        ],
+        "answer": "They allow for scale-invariant detection; They provide rotation invariance; They improve feature matching accuracy"
+    },
+    {
+        "question": "What is the primary function of a convolutional layer in CNNs?",
+        "options": [
+            "To reduce the spatial dimensions of the input",
+            "To perform elementwise matrix multiplication",
+            "To extract features from the input data",
+            "To merge feature maps",
+            "To apply nonlinear activation functions"
+        ],
+        "answer": "To extract features from the input data"
+    },
+    {
+        "question": "What does the selective search algorithm output?",
+        "options": [
+            "Region proposals",
+            "Image features",
+            "Segmented pixel regions",
+            "A set of bounding boxes",
+            "Object classes"
+        ],
+        "answer": "A set of bounding boxes; Region proposals"
+    },
+    {
+        "question": "Which feature extraction algorithm is designed to be more computationally efficient than SIFT?",
+        "options": [
+            "BRIEF",
+            "ORB",
+            "SURF",
+            "HOG",
+            "FAST"
+        ],
+        "answer": "SURF"
+    },
+    {
+        "question": "What factors can be adjusted to control the output size of a convolutional layer?",
+        "options": [
+            "Dropout rate",
+            "Stride",
+            "Number of filters",
+            "Filter size",
+            "Padding"
+        ],
+        "answer": "Stride; Padding; Filter size"
+    },
+    {
+        "question": "Which factors can be adjusted to control the output size of a convolutional layer?",
+        "options": [
+            "Dropout rate",
+            "Stride",
+            "Number of filters",
+            "Filter size",
+            "Padding"
+        ],
+        "answer": "Stride; Padding; Filter size"
+    },
+    {
+        "question": "Machine learning memiliki makna",
+        "options": [
+            "menyalin bagaimana seorang ahli mengerjakan pekerjaan",
+            "memprogram sekumpulan aturan logis untuk mengerjakan suatu task",
+            "mengajari orang bagaimana menggunakan mesin dengan lebih baik",
+            "melatih model statistik berdasar example data"
+        ],
+        "answer": "melatih model statistik berdasar example data"
+    },
+    {
+        "question": "What are hyperparameters in neural networks?",
+        "options": [
+            "Variables that determine network architecture and training",
+            "Inputs of the network",
+            "Weights of the network",
+            "Outputs of the network",
+            "Variables adjusted during training"
+        ],
+        "answer": "Variables that determine network architecture and training"
+    },
+    {
+        "question": "What factors impact the output dimensions of a convolutional layer?",
+        "options": [
+            "Filter size",
+            "Stride",
+            "Padding",
+            "Number of filters",
+            "Pooling window"
+        ],
+        "answer": "Filter size; Stride; Padding"
+    },
+    {
+        "question": "Diketahui bahwa np.dot(a,b) melakukan perkalian matriks pada a dan b, sedangkan a*b melakukan perkalian secara element-wise. Perhatikan 2 (dua) array bebas berikut 'a' dan 'b':\na = np.random.randn(12288, 150) # a.shape = (12288, 150)\nb = np.random.randn(150, 45) # b.shape = (150, 45)\nc = np.dot(a, b)\nBagaimanakah dimensi (shape) dari 'c'?",
+        "options": [
+            "c.shape = (12288, 45)",
+            "c.shape = (12288, 150)",
+            "c.shape = (150, 150)",
+            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!"
+        ],
+        "answer": "c.shape = (12288, 45)"
+    },
+    {
+        "question": "Which method is used to compute the gradient vector of a pixel in image processing?",
+        "options": [
+            "Laplacian filter",
+            "Fourier transform",
+            "Sobel operator",
+            "Canny edge detection",
+            "Gaussian blur"
+        ],
+        "answer": "Sobel operator"
+    },
+    {
+        "question": "Which property of SURF features makes them robust to rotation?",
+        "options": [
+            "Scale-invariance",
+            "Multi-resolution analysis",
+            "Orientation assignment using Haar wavelets",
+            "Integral image representation",
+            "Gaussian filter smoothing"
+        ],
+        "answer": "Orientation assignment using Haar wavelets"
     }
 ]
