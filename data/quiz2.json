@@ -1033,7 +1033,7 @@
             "Mean Squared Error (MSE)",
             "F1 Score"
         ],
-        "answer": "Accuracy;Crossentropy loss;Precision; F1 Score"
+        "answer": "Accuracy;Crossentropy loss;Precision;F1 Score"
     },    
     {
         "question": "How does convolution operation in CNN work?",
@@ -1168,17 +1168,6 @@
     },
     {
         "question": "What factors can be adjusted to control the output size of a convolutional layer?",
-        "options": [
-            "Dropout rate",
-            "Stride",
-            "Number of filters",
-            "Filter size",
-            "Padding"
-        ],
-        "answer": "Stride; Padding; Filter size"
-    },
-    {
-        "question": "Which factors can be adjusted to control the output size of a convolutional layer?",
         "options": [
             "Dropout rate",
             "Stride",
