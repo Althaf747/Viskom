@@ -1033,7 +1033,7 @@
             "Mean Squared Error (MSE)",
             "F1 Score"
         ],
-        "answer": "Accuracy; Crossentropy loss; Precision; F1 Score"
+        "answer": "Accuracy;Crossentropy loss;Precision; F1 Score"
     },    
     {
         "question": "How does convolution operation in CNN work?",
@@ -1055,7 +1055,7 @@
             "Using too few neurons",
             "Training for too many epochs"
         ],
-        "answer": "Having too many neurons; Training for too many epochs; Not using dropout"
+        "answer": "Having too many neurons;Training for too many epochs;Not using dropout"
     },  
     {
         "question": "What is a key feature of the VGG network?",
@@ -1186,7 +1186,7 @@
             "Filter size",
             "Padding"
         ],
-        "answer": "Stride; Padding; Filter size"
+        "answer": "Stride;Padding;Filter size"
     },
     {
         "question": "Machine learning memiliki makna",
@@ -1218,7 +1218,7 @@
             "Number of filters",
             "Pooling window"
         ],
-        "answer": "Filter size; Stride; Padding"
+        "answer": "Filter size;Stride;Padding"
     },
     {
         "question": "Diketahui bahwa np.dot(a,b) melakukan perkalian matriks pada a dan b, sedangkan a*b melakukan perkalian secara element-wise. Perhatikan 2 (dua) array bebas berikut 'a' dan 'b':\na = np.random.randn(12288, 150) # a.shape = (12288, 150)\nb = np.random.randn(150, 45) # b.shape = (150, 45)\nc = np.dot(a, b)\nBagaimanakah dimensi (shape) dari 'c'?",
