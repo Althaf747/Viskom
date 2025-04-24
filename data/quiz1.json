@@ -1249,5 +1249,213 @@
             "Median filter"
         ],
         "answer": "Laplacian filter"
+    },
+    {
+        "question": "What is feature extraction in the context of object recognition?",
+        "options": [
+            "Detecting motion in a video",
+            "Highlighting color differences in an image",
+            "Labeling each object in an image",
+            "Creating bounding boxes around objects",
+            "Identifying the key points of interest in an image"
+        ],
+        "answer": "Identifying the key points of interest in an image"
+    },
+    {
+        "question": "What is the effect of applying a smoothing filter to an image?",
+        "options": [
+            "The contrast is increased",
+            "The image resolution is decreased",
+            "The brightness is reduced",
+            "The noise is reduced, and the image becomes blurrier",
+            "The sharpness of edges is enhanced"
+        ],
+        "answer": "The noise is reduced, and the image becomes blurrier"
+    },
+    {
+        "question": "What is the main purpose of a median filter in image processing?",
+        "options": [
+            "To remove noise while preserving edges",
+            "To smooth the image by blurring edges",
+            "To enhance color saturation",
+            "To adjust the brightness of the image",
+            "To reduce image contrast"
+        ],
+        "answer": "To remove noise while preserving edges"
+    },
+    {
+        "question": "Which applications commonly use image smoothing techniques?",
+        "options": [
+            "Object detection",
+            "Edge detection",
+            "Preparing an image for segmentation",
+            "Reducing the detail in images",
+            "Reducing noise in MRI scans"
+        ],
+        "answer": "Preparing an image for segmentation; Reducing the detail in images; Reducing noise in MRI scans"
+    },
+    {
+        "question": "In object recognition tasks, what is the purpose of feature extraction?",
+        "options": [
+            "To filter out unnecessary information",
+            "To enhance the color in an image",
+            "To reduce the image size",
+            "To classify objects based on shape",
+            "To convert an image into a set of meaningful patterns"
+        ],
+        "answer": "To convert an image into a set of meaningful patterns"
+    },
+    {
+        "question": "The dataset mentioned in the lecture slides, which contains millions of images and tens of thousands of categories, is called?",
+        "options": [
+            "ImageNet",
+            "Word2Vec",
+            "VoiceNet",
+            "WordNet"
+        ],
+        "answer": "ImageNet"
+    },
+    {
+        "question": "What is a digital image composed of?",
+        "options": [
+            "A histogram of gradients",
+            "A grid of pixels",
+            "A group of objects",
+            "A set of lines",
+            "A continuous signal"
+        ],
+        "answer": "A grid of pixels"
+    },
+    {
+        "question": "In convolution, what happens if the stride is increased?",
+        "options": [
+            "The output image is larger",
+            "The contrast is reduced",
+            "The kernel becomes more detailed",
+            "The output image is smaller",
+            "The image becomes more colorful"
+        ],
+        "answer": "The output image is smaller"
+    },
+    {
+        "question": "Nama dataset yang disebutkan dalam slide kuliah, yang berisi jutaan citra dan puluhan ribu kategori adalah",
+        "options": [
+            "ImageNet",
+            "Word2Vec",
+            "VoiceNet",
+            "WordNet"
+        ],
+        "answer": "ImageNet"
+    },
+    {
+        "question": "What makes image segmentation a key task in computer vision? (Select all that apply)",
+        "options": [
+            "It helps recognize fine details and boundaries in objects",
+            "It provides object class and location simultaneously",
+            "It isolates objects and labels pixels with categories",
+            "It enhances image contrast for better visualization",
+            "It divides an image into regions for further analysis"
+        ],
+        "answer": "It divides an image into regions for further analysis; It isolates objects and labels pixels with categories; It helps recognize fine details and boundaries in objects"
+    },
+    {
+        "question": "What does the term 'convolutional kernel' refer to in image processing?",
+        "options": [
+            "A matrix applied to an image to perform filtering",
+            "A threshold value used to segment the image",
+            "The color depth of the image",
+            "The highest pixel intensity in an image",
+            "The pixel with the lowest intensity value"
+        ],
+        "answer": "A matrix applied to an image to perform filtering"
+    },
+    {
+        "question": "Which filter is best for removing 'salt-and-pepper' noise in an image?",
+        "options": [
+            "Max filter",
+            "Sobel filter",
+            "Gaussian filter",
+            "Median filter",
+            "Laplacian filter"
+        ],
+        "answer": "Median filter"
+    },
+    {
+        "question": "What is a key feature of the Gaussian filter in image processing?",
+        "options": [
+            "It blurs the image by applying a weighted average",
+            "It segments the image into regions",
+            "It sharpens the edges in an image",
+            "It detects color variations",
+            "It enhances the brightness of an image"
+        ],
+        "answer": "It blurs the image by applying a weighted average"
+    },
+    {
+        "question": "What is one key difference between object recognition and image segmentation?",
+        "options": [
+            "Object recognition identifies an object's location, while segmentation identifies the object's class",
+            "There is no difference between them",
+            "Object recognition uses only grayscale images, while segmentation uses color images",
+            "Object recognition classifies objects, while segmentation divides an image into regions",
+            "Segmentation provides object class, while object recognition provides pixel-wise labeling"
+        ],
+        "answer": "Object recognition classifies objects, while segmentation divides an image into regions"
+    },
+    {
+        "question": "What is the difference between min and max filters in image processing?",
+        "options": [
+            "The min filter sharpens the image, while the max filter blurs it",
+            "The min filter selects the minimum pixel value, while the max filter selects the maximum pixel value in the neighborhood",
+            "The min filter enhances edges, while the max filter smooths the image",
+            "The min filter reduces brightness, while the max filter increases it",
+            "The min filter adjusts contrast, while the max filter adjusts brightness"
+        ],
+        "answer": "The min filter selects the minimum pixel value, while the max filter selects the maximum pixel value in the neighborhood"
+    },
+    {
+        "question": "What is the purpose of histogram specification in image processing?",
+        "options": [
+            "To detect edges in an image",
+            "To increase the intensity values of an image",
+            "To reduce the brightness of an image",
+            "To change the resolution of an image",
+            "To match the histogram of one image to another"
+        ],
+        "answer": "To match the histogram of one image to another"
+    },
+    {
+        "question": "Which of the following are types of image processing filters?",
+        "options": [
+            "Bilateral filter",
+            "Gaussian filter",
+            "Minimum filter",
+            "Sobel filter",
+            "Median filter"
+        ],
+        "answer": "Gaussian filter; Bilateral filter; Median filter; Minimum filter"
+    },
+    {
+        "question": "What image operation stretches the range of intensity values across a larger range?",
+        "options": [
+            "Thresholding",
+            "Contrast stretching",
+            "Image segmentation",
+            "Histogram equalization",
+            "Image smoothing"
+        ],
+        "answer": "Contrast stretching"
+    },
+    {
+        "question": "Berikut ini merupakan aplikasi dari computer vision",
+        "options": [
+            "Object Detection",
+            "Object Recognition",
+            "Image Filtering",
+            "Object Classification",
+            "Object Segmentation"
+        ],
+        "answer": "Object Classification; Object Detection; Object Segmentation; Object Recognition"
     }
+    
 ]

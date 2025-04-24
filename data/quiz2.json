@@ -887,18 +887,7 @@
             "SURF does not detect keypoints"
         ],
         "answer": "SURF uses integral images for speed"
-    },
-    {
-        "question": "What is the effect of increasing the stride in a convolutional layer?",
-        "options": [
-            "It increases the training time",
-            "It applies more filters to the input",
-            "It reduces the spatial dimensions of the output feature map",
-            "It increases the depth of the output feature map",
-            "It increases the number of parameters"
-        ],
-        "answer": "It reduces the spatial dimensions of the output feature map"
-    },    
+    },   
     {
         "question": "What are the main advantages of using deeper neural networks?",
         "options": [
@@ -972,16 +961,6 @@
             "False"
         ],
         "answer": "False"
-    },
-    {
-        "question": "Perhatikan 2 (dua) array bebas berikut \"a\" dan \"b\": a = np.random.randn(4, 3) # a.shape = (4, 3) b = np.random.randn(3, 2) # b.shape = (3, 2) c = a + b Bagaimanakah dimensi (shape) dari \"c\"?",
-        "options": [
-            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!",
-            "c.shape = (4, 3)",
-            "c.shape = (4, 2)",
-            "c.shape = (3, 3)"
-        ],
-        "answer": "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!"
     },
     {
         "question": "Aktivasi tanh umumnya bekerja lebih baik dibanding fungsi sigmoid untuk hidden unit, karena rata-rata dari output-nya mendekati nol, sehingga terjadi pemusatan data yang lebih baik untuk layer berikutnya. True/False?",
@@ -1272,5 +1251,189 @@
             "Gaussian filter smoothing"
         ],
         "answer": "Orientation assignment using Haar wavelets"
+    },
+    {
+        "question": "Citra yang digunakan dalam contoh klasifikasi cats vs dogs merupakan contoh dari structured data, karena direpresentasikan sebagai structured array dalam komputer. True/False?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "What is the role of normalization in the HOG feature extraction process?",
+        "options": [
+            "Reducing the number of pixels",
+            "Increasing the image contrast",
+            "Enhancing color features",
+            "Balancing feature magnitudes",
+            "Reducing noise in the image"
+        ],
+        "answer": "Balancing feature magnitudes"
+    },
+    {
+        "question": "What is a block in HOG feature extraction composed of?",
+        "options": [
+            "1x1 pixel",
+            "3x3 cells",
+            "4x4 cells",
+            "2x2 cells",
+            "5x5 cells"
+        ],
+        "answer": "2x2 cells"
+    },
+    {
+        "question": "Perhatikan 2 (dua) array bebas berikut 'a' dan 'b':\na = np.random.randn(4, 3) # a.shape = (4, 3)\nb = np.random.randn(3, 2) # b.shape = (3, 2)\nc = a + b\nBagaimanakah dimensi (shape) dari 'c'?",
+        "options": [
+            "c.shape = (4, 2)",
+            "c.shape = (4, 3)",
+            "c.shape = (3, 3)",
+            "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!"
+        ],
+        "answer": "Komputasi tidak dapat terjadi karena ukuran array tidak cocok. Error!"
+    },
+    {
+        "question": "What is the effect of increasing the stride in a convolutional layer?",
+        "options": [
+            "It reduces the spatial dimensions of the output feature map",
+            "It applies more filters to the input",
+            "It increases the depth of the output feature map",
+            "It increases the training time",
+            "It increases the number of parameters"
+        ],
+        "answer": "It reduces the spatial dimensions of the output feature map"
+    },
+    {
+        "question": "In a CNN, what is typically used for classification at the final stage?",
+        "options": [
+            "Fully connected layers",
+            "Convolutional layers",
+            "Pooling layers",
+            "Softmax layers",
+            "Batch Normalization"
+        ],
+        "answer": "Fully connected layers"
+    },
+    {
+        "question": "What is the role of weights in a neural network?",
+        "options": [
+            "To store the input size",
+            "To prevent overfitting",
+            "To adjust the learning rate",
+            "To determine the importance of inputs",
+            "To normalize activations"
+        ],
+        "answer": "To determine the importance of inputs"
+    },
+    {
+        "question": "What is the primary purpose of the SIFT algorithm in object recognition?",
+        "options": [
+            "To apply image segmentation",
+            "To detect color features",
+            "To find keypoints and descriptors that are invariant to scale and rotation",
+            "To perform edge detection",
+            "To compute image depth"
+        ],
+        "answer": "To find keypoints and descriptors that are invariant to scale and rotation"
+    },
+    {
+        "question": "What does HOG stand for in the context of object recognition?",
+        "options": [
+            "Histogram of Object Gradients",
+            "High-order Object Gradients",
+            "Histogram of Overlapping Groups",
+            "Heatmap of Orientation Gradients",
+            "Histogram of Oriented Gradients"
+        ],
+        "answer": "Histogram of Oriented Gradients"
+    },
+    {
+        "question": "What is the primary function of the ReLU activation in a CNN architecture?",
+        "options": [
+            "Compute pooling",
+            "Reduce spatial dimensions",
+            "Increase the depth of the network",
+            "Reduce the number of parameters",
+            "Apply nonlinear transformation to input"
+        ],
+        "answer": "Apply nonlinear transformation to input"
+    },
+    {
+        "question": "Which of the following is NOT a common optimizer used in CNNs?",
+        "options": [
+            "Adagrad",
+            "Adam",
+            "Stochastic Gradient Descent (SGD)",
+            "RMSProp",
+            "L2 Regularization"
+        ],
+        "answer": "L2 Regularization"
+    },
+    {
+        "question": "What is a key difference between SIFT and SURF?",
+        "options": [
+            "SURF does not detect keypoints",
+            "SURF uses color information for feature extraction",
+            "SURF uses integral images for speed",
+            "SIFT is more robust to noise",
+            "SIFT is faster than SURF"
+        ],
+        "answer": "SURF uses integral images for speed"
+    },
+    {
+        "question": "Which of the following are common applications of CNNs?",
+        "options": [
+            "Speech recognition",
+            "Machine translation",
+            "Image classification",
+            "Sentiment analysis",
+            "Object detection"
+        ],
+        "answer": "Image classification; Object detection; Speech recognition"
+    },
+    {
+        "question": "In the HOG method, which feature does the gradient vector compute?",
+        "options": [
+            "The orientation of pixel intensity changes",
+            "The pixel’s intensity",
+            "The color histogram",
+            "The average pixel color",
+            "The object’s shape"
+        ],
+        "answer": "The orientation of pixel intensity changes"
+    },
+    {
+        "question": "What is the role of keypoint descriptors in SIFT?",
+        "options": [
+            "They describe the local neighborhood of each keypoint",
+            "They reduce the dimensionality of the image",
+            "They store the position of keypoints",
+            "They perform edge detection",
+            "They generate object proposals"
+        ],
+        "answer": "They describe the local neighborhood of each keypoint"
+    },
+    {
+        "question": "What is a key reason for using the activation function in CNNs?",
+        "options": [
+            "To normalize the inputs",
+            "To reduce computation time",
+            "To introduce nonlinearity",
+            "To increase the depth of the network",
+            "To reduce the input dimensions"
+        ],
+        "answer": "To introduce nonlinearity"
+    },
+    {
+        "question": "What is the key benefit of using maxpooling in CNN architectures?",
+        "options": [
+            "Reducing the spatial size of the input",
+            "Increasing the depth of the network",
+            "Learning more complex features",
+            "Increasing the number of filters",
+            "Normalizing the feature maps"
+        ],
+        "answer": "Reducing the spatial size of the input"
     }
+
 ]
