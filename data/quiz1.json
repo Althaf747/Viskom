@@ -1237,7 +1237,7 @@
             "Matrix operations can be used for image transformation",
             "Each pixel can be represented as a matrix element"
         ],
-        "answer": "Each pixel can be represented as a matrix element;Matrices allow for easy manipulation of image valueslMatrix operations can be used for image transformation"
+        "answer": "Each pixel can be represented as a matrix element;Matrices allow for easy manipulation of image valuesl;Matrix operations can be used for image transformation"
     },
     {
         "question": "Which operation is commonly used to sharpen an image?",
