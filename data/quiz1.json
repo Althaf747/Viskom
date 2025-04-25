@@ -1292,7 +1292,7 @@
             "Reducing the detail in images",
             "Reducing noise in MRI scans"
         ],
-        "answer": "Preparing an image for segmentation; Reducing the detail in images; Reducing noise in MRI scans"
+        "answer": "Preparing an image for segmentation;Reducing the detail in images;Reducing noise in MRI scans"
     },
     {
         "question": "In object recognition tasks, what is the purpose of feature extraction?",
