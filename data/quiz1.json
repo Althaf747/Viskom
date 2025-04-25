@@ -1105,7 +1105,7 @@
             "Real-time video surveillance",
             "Real-time vehicle detection in traffic"
         ],
-        "answer": "Object tracking, Real-time video surveillance;Real-time face detection;Real-time vehicle detection in traffic"
+        "answer": "Object tracking;Real-time video surveillance;Real-time face detection;Real-time vehicle detection in traffic"
     },
     {
         "question": "Which of the following filters is used to detect edges in images?",
@@ -1149,7 +1149,7 @@
             "It replaces pixel values with the median of neighboring pixels",
             "It is effective for salt-and-pepper noise"
         ],
-        "answer": "It reduces noise in an image, It enhances sharpness;It is effective for salt-and-pepper noise;It smooths images while preserving edges"
+        "answer": "It reduces noise in an image;It enhances sharpness;It is effective for salt-and-pepper noise;It smooths images while preserving edges"
     },
     {
         "question": "Which technique is used to improve contrast by distributing pixel intensities evenly?",
@@ -1204,7 +1204,7 @@
             "Multiple objects with similar appearances",
             "Variations in object shapes and sizes"
         ],
-        "answer": "Complex backgrounds that interfere with object boundaries, Multiple objects with similar appearances;Variations in object shapes and sizes;Overlapping objects in an image"
+        "answer": "Complex backgrounds that interfere with object boundaries;Multiple objects with similar appearances;Variations in object shapes and sizes;Overlapping objects in an image"
     },
     {
         "question": "Which tasks are considered part of object recognition in computer vision?",
@@ -1226,7 +1226,7 @@
             "Medical imaging",
             "Improving contrast in lowlight photos"
         ],
-        "answer": "Medical imaging, Enhancing satellite images, Improving contrast in lowlight photos"
+        "answer": "Medical imaging;Enhancing satellite images;Improving contrast in lowlight photos"
     },
     {
         "question": "Why are matrices used to represent digital images?",
