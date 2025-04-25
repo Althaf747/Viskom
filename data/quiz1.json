@@ -1237,7 +1237,7 @@
             "Matrix operations can be used for image transformation",
             "Each pixel can be represented as a matrix element"
         ],
-        "answer": "Each pixel can be represented as a matrix element; Matrices allow for easy manipulation of image valueslMatrix operations can be used for image transformation"
+        "answer": "Each pixel can be represented as a matrix element;Matrices allow for easy manipulation of image valueslMatrix operations can be used for image transformation"
     },
     {
         "question": "Which operation is commonly used to sharpen an image?",
@@ -1356,7 +1356,7 @@
             "It enhances image contrast for better visualization",
             "It divides an image into regions for further analysis"
         ],
-        "answer": "It divides an image into regions for further analysis; It isolates objects and labels pixels with categories; It helps recognize fine details and boundaries in objects"
+        "answer": "It divides an image into regions for further analysis;It isolates objects and labels pixels with categories;It helps recognize fine details and boundaries in objects"
     },
     {
         "question": "What does the term 'convolutional kernel' refer to in image processing?",
@@ -1433,7 +1433,7 @@
             "Sobel filter",
             "Median filter"
         ],
-        "answer": "Gaussian filter; Bilateral filter; Median filter; Minimum filter"
+        "answer": "Gaussian filter;Bilateral filter;Median filter;Minimum filter"
     },
     {
         "question": "What image operation stretches the range of intensity values across a larger range?",
@@ -1455,7 +1455,7 @@
             "Object Classification",
             "Object Segmentation"
         ],
-        "answer": "Object Classification; Object Detection; Object Segmentation; Object Recognition"
+        "answer": "Object Classification;Object Detection;Object Segmentation;Object Recognition"
     }
     
 ]

@@ -1378,7 +1378,7 @@
             "Sentiment analysis",
             "Object detection"
         ],
-        "answer": "Image classification; Object detection; Speech recognition"
+        "answer": "Image classification;Object detection;Speech recognition"
     },
     {
         "question": "In the HOG method, which feature does the gradient vector compute?",
